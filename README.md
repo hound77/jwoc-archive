@@ -8,7 +8,7 @@ An archive for jwoc event.
 
 
 
-With this JWoc Archive, I just attempt to connect<sup>This is a form of "reconnaissance" for hackers and penetration testers</sup> at various ports, and do nothing else.
+With this JWoc Archive, I just attempt to collect and showcase memories of the event, and do nothing else.
 
 ## Pre-requisites :rotating_light:
 
