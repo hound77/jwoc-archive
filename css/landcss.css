@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+  }
+  #showcase{
+    background-image:linear-gradient(rgba(218, 206, 206, 0.5),#a6e2e2),url(/jwoc-archive/image/mainbenner.png);
+    background-size:cover;
+    max-width: 100%;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:text-center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:70px;
+    font-family: 'Kaushan Script', cursive;
+    line-height:1.2;
+    color:rgb(216, 54, 25);
+    position: unset;
+    left:364px;
+    top:195px;
+    font-weight: 700;
+  }
+  
+  #showcase p{
+    font-size:35px;
+    font-weight:bold;
+    font-style:italic;
+  }
+  
+  #showcase .button{
+    font-size:35px;
+    font-family: 'Balsamiq Sans', cursive;
+    text-decoration:none;
+    color:#2e231a;
+    border:#242220 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+  #showcase .button:hover{
+    background:#29af3b;
+    color:rgb(253, 243, 243);
+    
+  }
+  
+  @media(max-width:998rem){
+    html.h1{
+      font-size:25%;
+    }
+  }
+  @media(max-width:768rem){
+    html.h1{
+      font-size:20%;
+    }
+  }
+  
+  #section-a{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+  
+  #section-b{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+  }
+  
+  #section-c{
+    display:flex;
+  }
+  
+  #section-c div{
+    padding:20px;
+  }
+  
+  #section-c .box-1, #section-c .box-3{
+    background:#926239;
+    color:#fff;
+  }
+  
+  #section-c .box-2{
+    background:#f9f9f9;
+  }
+  
