@@ -7,8 +7,9 @@
   <meta name="language" content="English">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/gallery.css" />
   <title>JWoC archive</title>
+
 </head>
 
 <body>
@@ -24,6 +25,58 @@
   <section>
     TEXT...........
   </section>
+  <div id="contentwrap">
+    <img id="featured" src="images/img1.jpg">
+    <div id="slidewrap">
+      <img id="leftarrow" class="arrow" src="images/leftarrow.png">
+      <div id="slider">
+        <img class="thumbnail active" src="images/img2.jpg">
+        <img class="thumbnail" src="images/img3.jpg">
+        <img class="thumbnail" src="images/img4.jpg">
+        <img class="thumbnail" src="images/img5.jpg">
+        <img class="thumbnail" src="images/img6.jpg">
+        <img class="thumbnail" src="images/img7.jpg">
+        <img class="thumbnail" src="images/img8.jpg">
+        <img class="thumbnail" src="images/img9.jpg">
+      </div>
+      <img id="rightarrow" class="arrow" src="images/rightarrow.png ">
+    </div>
+  </div>
+  <script type="text/javascript">
+    let thumbnails = document.getElementsByClassName('thumbnail')
+
+    let activeImages = document.getElementsByClassName('active')
+
+    for (var i = 0; i < thumbnails.length; i++) {
+
+      thumbnails[i].addEventListener('mouseover', function () {
+        console.log(activeImages)
+
+        if (activeImages.length > 0) {
+          activeImages[0].classList.remove('active')
+        }
+
+
+        this.classList.add('active')
+        document.getElementById('featured').src = this.src
+      })
+    }
+
+
+    let buttonRight = document.getElementById('rightarrow');
+    let buttonLeft = document.getElementById('leftarrow');
+
+    buttonLeft.addEventListener('click', function () {
+      document.getElementById('slider').scrollLeft -= 180
+    })
+
+    buttonRight.addEventListener('click', function () {
+      document.getElementById('slider').scrollLeft += 180
+    })
+
+
+  </script>
+
 </body>
 
 </html>
