@@ -1,7 +1,7 @@
 /*  index page css */
 .site-footer
 {
-  background-image: linear-gradient(to bottom right, #1DB954, #191414, #000000);
+  background-color:#141414;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -84,4 +84,10 @@
 .social-icons a.github:hover
 {
   background-color:#4078c0;
+}
+.jwoc-logo{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
 }
