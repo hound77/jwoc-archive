@@ -1,0 +1,127 @@
+body{
+    background-color:#191414;
+    color:#ffffff;
+}
+.projects p{
+    font-size: 30px;
+    color:#ffffff;
+    text-align:center;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+.flex-container{
+    display: flex;
+    height:600px;
+    width:100%;
+    flex-wrap: wrap;
+    margin-left:100px;
+   
+}
+.item{
+    box-shadow: 0 4px 8px 2px #1DB954;
+    margin:20px;
+    max-width:300px;
+  }
+#secretpeek {
+    text-align: center;
+}
+#pbchess{
+    text-align: center;
+}
+#facex{
+    text-align: center;
+}
+#youtube{
+    text-align: center;
+ }
+#echoforme{
+    text-align: center;
+ }
+ #crowdchatting{
+    text-align: center;
+ }
+ #girlmeetup{
+    text-align: center;
+ }
+ #sampark{
+    text-align: center;
+ }
+ #blogsite{
+    text-align: center;
+ }
+ #she{
+    text-align: center;
+ }
+ #portscanner{
+    text-align: center;
+ }
+ #netra{
+    text-align: center;
+ }
+ #netra img{
+     height:300px;
+ }
+ #friendly{
+    text-align: center;
+ }
+ #codeit{
+    text-align: center;
+ }
+ #learning{
+    text-align: center; 
+ }
+ #store{
+    text-align: center; 
+ } 
+ #store img{
+     height:200px;
+ }
+ #fitility{
+    text-align: center; 
+ } 
+ #hacking{
+    text-align: center; 
+ }
+ #sharenlearn{
+    text-align: center; 
+ } 
+ #doclense{
+    text-align: center; 
+ }
+ #art{
+    text-align: center; 
+ }
+ #gitkundli{
+    text-align: center; 
+ }
+ #advance{
+    text-align: center; 
+ }
+ #beginner{
+    text-align: center; 
+ }
+ #jwoc{
+    text-align: center; 
+ }
+ .button{
+     cursor: pointer;
+     border-radius: 5px;
+     border: none;
+    color: rgb(63, 61, 61);
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+ }
+ .button:hover{
+    background-color: #1DB954;
+ }
+ .fa{
+    color:#ffffff;
+    margin-top: 6px;;
+ }
+ .fa:hover{
+     text-decoration: underline;
+ }
