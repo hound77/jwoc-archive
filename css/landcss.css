@@ -23,7 +23,7 @@
     line-height:1.6;
   }
   #showcase{
-    background-image:linear-gradient(rgba(218, 206, 206, 0.5),#a6e2e2),url(/jwoc-archive/image/mainbenner.png);
+    background-image:linear-gradient(rgba(218, 206, 206, 0.5),#a6e2e2),url(/image/mainbenner.png);
     background-size:cover;
     max-width: 100%;
     background-position:center;
