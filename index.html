@@ -6,23 +6,60 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/d5f154924f.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/d5f154924f.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <style>
+        .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 12%;
+    }
+    .navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+color: #ffffff;
+}
+a.ex{
+    color: #ffffff;
+}
+    a.ex1:hover, a.ex1:active {color:#1db954;font-size: 120%;}
+      </style>
   <title>JWoC archive</title>
 </head>
 
 <body>
-  <nav class="nav">
-    <h1 class="nav__logo"> JWoC archive</h1>
-    <ul class="nav__menu-options">
-      <li class="nav__menu-option"><a href="./index.html">home</a></li>
-      <li class="nav__menu-option"><a href="./gallery.html">gallery</a></li>
-      <li class="nav__menu-option"><a href="./projects.html">projects</a></li>
-      <li class="nav__menu-option"><a href="./team.html">team</a></li>
-    </ul>
-  </nav>
+  <header class="sticky-top">
+<nav class="navbar navbar-custom navbar-expand-lg py-0 text-light " role="navigation" style="background-color:black"> 
+    <div class="container ml-3 my-2 text-light">
+        <h1 class="nav__logo text-light text-justify"> JWoC archive</h1>
+        <button class="btn-outline-light navbar-toggler ml-4" data-toggle="collapse" data-target="#nav">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0 justify-content-end" id="nav">
+        <div class="nav-item nav-link text-light">
+            <a href="./index.html" class="ex ex1 font-weight-bold ml-3">Home</a>
+        </div>
+        <div class="nav-item nav-link text-light">
+            <a href="./gallery.html" class="ex ex1 font-weight-bold ml-3">Gallery</a>
+        </div>
+        <div class="nav-item nav-link text-light">
+            <a href="./projects.html" class="ex ex1  font-weight-bold ml-3">Projects</a>
+        </div>
+        <div class="nav-item nav-link text-light">
+            <a href="./team.html" class="ex ex1 font-weight-bold ml-3">Team</a>
+        </div>
+        </div>
+	</div>
+</nav>
+</header>
   <section>
     TEXT...........
   </section>
