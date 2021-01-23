@@ -44,11 +44,6 @@ git clone https://github.com/<your-github-username>/jwoc-archive
 cd jwoc-archive
 ```
 
-**4.** Create a new branch.
-
-```bash
-git checkout -b <your_branch_name>
-```
 
 **5.** Make changes in source code.
 
@@ -63,7 +58,7 @@ git commit -m "<your_commit_message>"
 **7.** Push your local commits to the remote repo.
 
 ```bash
-git push -u origin <your_branch_name>
+git push 
 ```
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to `develop` !) repository.
