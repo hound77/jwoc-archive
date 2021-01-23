@@ -1,0 +1,232 @@
+{
+    "card":
+    [
+      { 
+        "id":"secretpeek", 
+        "img":"image/secretpeek.jpg",
+        "h3":"#Secret peek;",
+        "p":"Anonymity is taken Seriously. It is a web page to confess your secrets. Speak out the things you never could.",
+        "link": "https://github.com/iharshit009/SecretPeek",
+        "profile":"https://github.com/iharshit009",
+        "github":"iharshit009"
+      },
+      {
+         "id":"pbchess",
+        "img":"image/pbchess.jpg",
+        "h3":"#Pbchess",
+        "p":"An open source Online Multiplayer Game of Chess using React, Node js, Mongo DB, css etc.",
+        "link": "https://github.com/fave77/pbchess",
+        "profile":"https://github.com/fave77",
+        "github":"fave77"
+      },
+      {
+         "id":"facex",
+        "img":"image/face.jpg",
+        "h3":"#Face-X",
+        "p":"An open source Face-Recognition system using different algorithms and frameworks.",
+        "link":"https://github.com/akshitagupta15june/Face-X",
+        "profile":"https://github.com/akshitagupta15june",
+        "github":"akshitagupta15june"
+      },
+      { 
+         "id":"youtube",
+        "img":"image/Youtube.jpg",
+        "h3":"#Youtube-downloader",
+        "p":"Youtube Video Downloader is an online web application to convert and download youtube videos in mp4 and mp3 format.",
+        "link":"https://github.com/utpalendubarman/youtube-downloader",
+        "profile":"https://github.com/utpalendubarmanr",
+        "github":"utpalendubarman"
+      },
+      {
+         "id":"echoforme",
+        "img":"image/Echoforme.jpg",
+        "h3":"#Echo_for_me",
+        "p":"EchoForMe is a Web Application that reads out the latest news to the user. It is designed especially for visually impaired people to help them by reading out the daily news to them.",
+        "link":"https://github.com/rsrkpatwari1234/EchoForMe",
+        "profile":"https://github.com/rsrkpatwari1234",
+        "github":"rsrkpatwari1234"
+      },
+      {
+         "id":"crowdchatting",
+        "img":"image/crowdchatting.jpg",
+        "h":"#crowdchatting",
+        "p":"It's a chatting application using Firebase and real-time data base. multiple users can chat with each other in real time.",
+        "link":"https://github.com/bindu-07/CrowdChatting",
+        "profile":"https://github.com/bindu-07",
+        "github":"bindu-07"
+     },
+     {
+        "id":"girlmeetup",
+        "img":"image/girlmeetup.jpg",
+        "h3":"#Girlmeetup",
+        "p":"A platform where various girl related opportunities would be listed with their deadlines and details and a interface for girls to ask their queries related to technology.",
+        "link":"https://github.com/chehak123/GirlMeetup",
+        "profile":"https://github.com/chehak123",
+        "github":"chehak123"
+     },
+     {
+        "id":"sampark",
+        "img":"image/sampark.jpg",
+        "h3":"#Sampark",
+        "p":"An open-source team collaboration platform. it allows user to communicate securely in Realtime, Share File, Location and code snippets.",
+        "link":"https://github.com/The-Robotics-Forum/sampark",
+        "profile":"https://github.com/The-Robotics-For,um",
+        "github":"The-Robotics-Forum"
+     },
+     {
+        "id":"blogsite",
+        "img":"image/blogsite.jpg",
+        "h3":"#Blogsite;",        
+        "p":"BlogSite is a dynamic blogging website. Build using NodeJs, It render server side using Express JS, Mongoose and Mongo D.",
+        "link":"https://github.com/ALPHAVIO/BlogSite",
+        "profile":"https://github.com/ALPHAVIO",
+        "github":"Pranav016"
+     },
+     {
+        "id":"she",
+        "img":"image/she.jpg",
+        "h3":"#She-livewithoutfear",
+        "p":"SHE is a Women safety android application, that can be accessed easily by pressing a button and it sends an alert message along to the registered contact.",
+        "link":"https://github.com/priyalbhatewara123/SHE--Live-Without-Fear",
+        "profile":"https://github.com/priyalbhatewara1,23",
+        "github":"Priyalbhatewara123"
+     },
+     {
+        "id":"portscanner",
+        "img":"image/portscanner.jpg",
+        "h3":"#Port-scanner",
+        "p":"A go-to tool for scanning network. Scan all the open ports for a given host with just one click and what not.",
+        "link":"https://github.com/vinitshahdeo/PortScanner",
+        "profile":"https://github.com/vinitshahdeo",
+        "github":"vinitshahdeo"
+     },
+     {
+        "id":"netra",
+        "img":"image/netra.jpg",
+        "h3":"#Netra",
+        "p":"An android application developed in Kotlin and OpenCV with features like voice control, face follower, ocr detection etc.",
+        "link":"https://github.com/The-Robotics-Forum/netra",
+        "profile":"https://github.com/The-Robotics-For,um",
+        "github":"The-Robotics-Forum"
+     },
+     {
+        "id":"friendly",
+        "img":"image/friendly.jpg",
+        "h3":"#Friend.ly",        
+        "p":"With Friend.ly, we propose a novel FRS which leverages text-mining, personality trait extraction, sentiment analysis and hybrid filtering and show it to be having a better performance than most collaborative filtering based FRSs.",
+        "link":"https://github.com/und3fined-v01d/Friend.ly",
+        "profile":"https://github.com/und3fined-v01d", 
+        "github":"und3fined-v01d"
+     },
+     {
+        "id":"codeit",
+        "img":"image/codeit.jpg",
+        "h3":"#Code-it",      
+        "p":"A CLI based tool to help users create C++ files easily for any contest.",
+        "link":"https://github.com/Arch2x/codeit",
+        "profile":"https://github.com/Arch2x",
+        "github":"Arch2x"
+     },
+     {
+        "id":"learning",
+        "img":"image/learning-made-easy.jpg",
+        "h3":"#Learning-made-easy",
+        "p":"The project has been designed for the convenience of students to keep track of their learning rate of each student and hence personalise their experience.",
+        "link":"https://github.com/anushka23g/Learning-Made-Easy",
+        "profile":"https://github.com/anushka23g", 
+        "github":"anushka23g"
+     },
+     {  
+        "id":"store",   
+        "img":"image/storebook.jpg",
+        "h3":"#Store-book",
+        "p":"The storebook app built using JS,Html, Css where we store can keep some important book details.",
+        "link":"https://github.com/Sharmi-1999/storebook",
+        "button":"Link to Project</button",
+        "profile":"https://github.com/Sharmi-1999",
+        "github":"Sharmi-1999"                          
+     },
+     {
+        "id":"fitility",
+        "img":"image/fitility.jpg",
+        "h3":"#Fitility",        
+        "p":"The focus group of this application are the people who enjoy fitness and dance from the safety of their homes.",
+        "link":"https://github.com/samflab/Fitility-OpenSource",
+        "profile":"https://github.com/samflab",
+        "github":"samflab"                         
+     },
+     {  
+        "id":"hacking",  
+        "img":"image/hackingscript.jpg",
+        "h3":"#Hacking-scripts",
+        "p":"A Project which consists of all amazing python , Javascript, Nodejs scripts.",
+        "link":"https://github.com/Tejas1510/Hacking-Scripts",
+        "button":"Link to Project</button>",
+        "profile":"https://github.com/Tejas1510",
+        "github":"Tejas1510"                           
+     },
+     {
+        "id":"sharenlearn",
+        "img":"image/sharenlearn.jpg",
+        "h3":"#Sharenlearn",
+        "p":"A File/Resource Sharing Platform for Students&Faculties to upload&share files which will be accessible to all members.",
+        "link":"https://github.com/chiraag-kakar/sharenlearn",
+        "profile":"https://github.com/chiraag-kakar/sh,arenlearn",
+        "github":"chirag-kakkar"
+     },
+     {
+        "id":"doclense",
+        "img":"image/doclense.jpg",
+        "h3":"#Doclense;",        
+        "p":"An open source AI based document scanner app and beyond that with some cool amazing features added to it !",
+        "link":"https://github.com/smaranjitghose/DocLense",
+        "profile":"https://github.com/smaranjitghose",
+        "github":"maranjitghose"
+     },
+     {
+        "id":"art",
+        "img":"image/art.jpg",
+        "h3":"#Art-cv",
+        "p":"Randomly Exploring Computer Vision techniques to create eye catching art out of plain boring images.",
+        "link":"https://github.com/smaranjitghose/ArtCV",
+        "profile":"https://github.com/smaranjitghose",
+        "github":"smaranjitghose"                         
+     },
+     {
+        "id":"gitkundli",
+        "img":"image/gitkundli.jpg",
+        "h3":"#Gitkundli",
+        "p":"we sometime need to fetch datas from our GitHub right. so GitKundli is a webapp that makes open source projects on GitHub much simpler with GraphQL.",
+        "link":"https://github.com/smaranjitghose/GitKundli",
+        "profile":"https://github.com/anushbhatia",
+        "github":"anushbhatia"                          
+     },
+     {
+        "id":"advance",
+        "img":"image/advance.jpg",
+        "h3":"#Advanced-gain",
+        "p":"Generative adversarial network (GAN) for missing data imputation.",
+        "link":"https://github.com/purbayankar/Advanced_GAIN",
+        "profile":"https://github.com/purbayankar", 
+        "github":"purbayankar"                         
+     },
+     {
+        "id":"beginner",
+        "img":"image/beg.jpg",
+        "h3":"#Beginner-repo",
+        "p":"This is a demo repo for beginners to understand open source better.",
+        "link":"https://github.com/JGEC-Winter-of-Code/Beginner-Repo",
+        "profile":"https://github.com/pydevsg", 
+        "github":"pydevsg"                           
+     },
+     {
+        "id":"jwoc",
+        "img":"image/jwoc.jpg",
+        "h3":"Jwoc-archive",
+        "p":"With this JWoc Archive, I just attempt to collect and showcase memories of the event, and do nothing else.",
+        "link":"https://github.com/hound77/jwoc-archive",
+        "profile":"https://github.com/hound77",
+       "github":"hound77"
+     }
+    ]
+}
