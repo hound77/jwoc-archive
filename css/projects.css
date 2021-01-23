@@ -15,13 +15,30 @@ body{
     width:100%;
     flex-wrap: wrap;
     margin-left:100px;
-   
+}
+.item img{
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
 }
 .item{
-    box-shadow: 0 4px 8px 2px #1DB954;
+    box-shadow: 0 4px 8px 2px black;
     margin:20px;
     max-width:300px;
+   /* border:2px solid red;*/
+    border-radius:10px;
+    flex:1 1 auto;
+    max-height: fit-content;
   }
+.item p{
+   display:inline-block;
+   height:100px;
+}
+.item footer{
+   margin-bottom: 2em;
+}
 #secretpeek {
     text-align: center;
 }
@@ -58,9 +75,6 @@ body{
  #netra{
     text-align: center;
  }
- #netra img{
-     height:300px;
- }
  #friendly{
     text-align: center;
  }
@@ -73,9 +87,6 @@ body{
  #store{
     text-align: center; 
  } 
- #store img{
-     height:200px;
- }
  #fitility{
     text-align: center; 
  } 
@@ -107,21 +118,29 @@ body{
      cursor: pointer;
      border-radius: 5px;
      border: none;
-    color: rgb(63, 61, 61);
-    padding: 8px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+     color: rgb(63, 61, 61);
+     padding: 8px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 8px 2px;
+     position: relative;
+     align-items:fixed;
  }
  .button:hover{
     background-color: #1DB954;
  }
  .fa{
     color:#ffffff;
-    margin-top: 6px;;
+    margin-top: 8px;
+    position: relative;
+    margin-bottom: 2em;
  }
  .fa:hover{
      text-decoration: underline;
+ }
+ *{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
  }
