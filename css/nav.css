@@ -1,0 +1,21 @@
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+a.ex {
+    color: #ffffff;
+}
+
+a.ex1:hover,
+a.ex1:active {
+    color: #1db954;
+    font-size: 120%;
+}
