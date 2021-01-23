@@ -1,0 +1,334 @@
+
+section {
+  margin-bottom: 30px;
+}
+
+#contentwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 80px;
+}
+#feat {
+  position: relative;
+}
+#featured {
+  max-width: 1000px;
+  max-height: 600px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 3px black);
+}
+#nexticon {
+ position: absolute;
+ font-size: 50px;
+ margin-left: 18px;
+ margin-top: -18px;
+}
+#previcon {
+ position: absolute;
+ font-size: 50px;
+ margin-left: 17px;
+ margin-top: -18px;
+}
+
+#prevbutton, #nextbutton {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+  border-radius: 50%;
+  display:block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  top: 45%;
+}
+
+
+#nextbutton:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+#prevbutton:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+#nextbutton {
+  right:10px;
+}
+#prevbutton {
+  left:10px;
+}
+
+/* TO MAKE THE GALLERY RESPONSIVE FOR DIFFERENT SCREEN LENGTHS */
+
+@media (max-width:1040px) {
+  #featured {
+      max-width: 890px;
+      max-height: 534px;
+  }
+  
+  #prevbutton, #nextbutton {
+
+      display:block;
+      position: absolute;
+      background-color: white;
+      width: 50px;
+      height: 50px;
+      top: 45%;
+  }
+}
+
+@media (max-width:930px) {
+  #featured {
+      max-width: 770px;
+      max-height: 462px;
+  }
+  #prevbutton, #nextbutton {
+
+      display:block;
+      position: absolute;
+      background-color: white;
+      width: 45px;
+      height: 45px;
+      top: 45%;
+  }
+  #nexticon {
+      position: absolute;
+      font-size: 45px;
+      margin-left: 16.5px;
+      margin-top: -16px;
+   }
+   #previcon {
+      position: absolute;
+      font-size: 46px;
+      margin-left: 13px;
+      margin-top: -16px;
+   }
+}
+
+@media (max-width:820px) {
+  #featured {
+      max-width: 660px;
+      max-height: 396px;
+  }
+
+
+  #prevbutton, #nextbutton {
+
+      display:block;
+      position: absolute;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+      top: 45%;
+  }
+  #nexticon {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 15px;
+      margin-top: -14px;
+   }
+   #previcon {
+      position: absolute;
+      font-size: 41px;
+      margin-left: 13px;
+      margin-top: -14px;
+   }
+}
+
+@media (max-width:700px) {
+  #featured {
+      max-width: 590px;
+      max-height: 354px;
+  }
+  #prevbutton, #nextbutton {
+
+      display:block;
+      position: absolute;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+      top: 45%;
+  }
+}
+
+@media (max-width:635px) {
+  #featured {
+      max-width: 525px;
+      max-height: 315px;
+  }
+  #prevbutton, #nextbutton {
+
+      display:block;
+      position: absolute;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+      top: 45%;
+  }
+}
+
+@media (max-width:570px) {
+  #featured {
+      max-width: 470px;
+      max-height: 282px;
+  }
+  #prevbutton, #nextbutton {
+
+      display:block;
+      position: absolute;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+      top: 45%;
+  }
+}
+
+/* MEDIA QUERY ENDS */
+
+.thumbnail {
+  max-width: 120px;
+  max-height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 4px;
+  border: 2px solid black;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.active {
+  opacity: 1;
+}
+
+#slidewrap {
+  margin-top: 15px;
+  margin-right: 10px;
+  max-width: 560px;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+}
+
+#slider {
+  width: 440px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.arrow {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  height: 65px;
+  width: 65px;
+  opacity: 0.7;
+}
+.site-footer
+{
+  background-color:#141414;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#EEEEEE;
+}
+.site-footer h5
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:5px;
+  border-radius:100%;
+  background-color:#33353d;
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998;
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6;
+}
+.social-icons a.github:hover
+{
+  background-color:#4078c0;
+}
+.jwoc-logo{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
