@@ -1,7 +1,10 @@
-/*  index page css */
+ /*  index page css */
 
 .site-footer
 {
+  position: fixed;
+  width: 100%;
+  bottom:0;
   background-color:#141414;
   padding:45px 0 20px;
   font-size:15px;
