@@ -1,0 +1,154 @@
+
+.site-footer
+{
+  background-color:#141414;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#EEEEEE;
+}
+.site-footer h5
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:5px;
+  border-radius:100%;
+  background-color:#33353d;
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998;
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6;
+}
+.social-icons a.github:hover
+{
+  background-color:#4078c0;
+}
+.jwoc-logo{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  perspective: 1000px;
+  margin: 5.46875vw auto;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.flip-card-front {
+  color: black;
+  background-image: url("/images/Team/img_avatar.png");
+  background-size: 300px 350px;
+  padding: 30% 20px;
+}
+
+.back-card-text {
+  padding: 40px 20px;
+}
+.icons:hover {
+  color: black;
+}
+.Links {
+  margin-top: 30px;
+  z-index: 100;
+}
+
+.flip-card-back {
+  background-color: #1db954;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#team
+{
+    margin:120px 0;
+}

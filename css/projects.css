@@ -1,0 +1,241 @@
+
+body{
+    background-color:#191414;
+    color:#ffffff;
+}
+.projects p{
+    font-size: 30px;
+    color:#ffffff;
+    text-align:center;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+.flex-container{
+    display: flex;
+    height:600px;
+    width:100%;
+    flex-wrap: wrap;
+    margin-left:100px;
+}
+.item img{
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+}
+.item{
+    box-shadow: 0 4px 8px 2px black;
+    margin:20px;
+    max-width:300px;
+   /* border:2px solid red;*/
+    border-radius:10px;
+    flex:1 1 auto;
+    max-height: fit-content;
+  }
+.item p{
+   display:inline-block;
+   height:100px;
+}
+.item footer{
+   margin-bottom: 2em;
+}
+#secretpeek {
+    text-align: center;
+}
+#pbchess{
+    text-align: center;
+}
+#facex{
+    text-align: center;
+}
+#youtube{
+    text-align: center;
+ }
+#echoforme{
+    text-align: center;
+ }
+ #crowdchatting{
+    text-align: center;
+ }
+ #girlmeetup{
+    text-align: center;
+ }
+ #sampark{
+    text-align: center;
+ }
+ #blogsite{
+    text-align: center;
+ }
+ #she{
+    text-align: center;
+ }
+ #portscanner{
+    text-align: center;
+ }
+ #netra{
+    text-align: center;
+ }
+ #friendly{
+    text-align: center;
+ }
+ #codeit{
+    text-align: center;
+ }
+ #learning{
+    text-align: center; 
+ }
+ #store{
+    text-align: center; 
+ } 
+ #fitility{
+    text-align: center; 
+ } 
+ #hacking{
+    text-align: center; 
+ }
+ #sharenlearn{
+    text-align: center; 
+ } 
+ #doclense{
+    text-align: center; 
+ }
+ #art{
+    text-align: center; 
+ }
+ #gitkundli{
+    text-align: center; 
+ }
+ #advance{
+    text-align: center; 
+ }
+ #beginner{
+    text-align: center; 
+ }
+ #jwoc{
+    text-align: center; 
+ }
+ .button{
+     cursor: pointer;
+     border-radius: 5px;
+     border: none;
+     color: rgb(63, 61, 61);
+     padding: 8px 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 8px 2px;
+     position: relative;
+     align-items:fixed;
+ }
+ .button:hover{
+    background-color: #1DB954;
+ }
+ .fa{
+    color:#ffffff;
+    margin-top: 8px;
+    position: relative;
+    margin-bottom: 2em;
+ }
+ .fa:hover{
+     text-decoration: underline;
+ }
+ *{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+=======
+.site-footer
+{
+  background-color:#141414;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#EEEEEE;
+}
+.site-footer h5
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:5px;
+  border-radius:100%;
+  background-color:#33353d;
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998;
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6;
+}
+.social-icons a.github:hover
+{
+  background-color:#4078c0;
+}
+.jwoc-logo{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
