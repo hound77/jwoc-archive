@@ -95,3 +95,37 @@
   width: 50px;
   margin-right: 10px;
 }
+/* Stats section */
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.circle-tile-heading {
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    color: #FFFFFF;
+    height: 100px;
+    margin: 0 auto -40px;
+    position: relative;
+    width: 100px;
+}
+.circle-tile-heading .fa {
+    line-height: 100px;
+}
+.circle-tile-content {
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+.circle-tile-number {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 5px 0 15px;
+    color: #FFFFFF;
+}
+.circle-tile-description {
+    text-transform: uppercase;
+}
+.circle-tile-content, .circle-tile-heading{
+  background-color: #1DB954;
+}
