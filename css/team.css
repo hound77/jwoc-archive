@@ -153,23 +153,14 @@
     margin:120px 0;
 }
 .image{
-  position: absolute;
-  left: 70%;
-  top: 90%;
-  height: 100px;
-  width: 100px;
-  margin-left: -100px;
-  margin-top: -100px;
-  border-radius: 10%;
+  position:sticky;
+
+  height: 200px;
+  width: 200px;
+ border-radius: 10%;
   border-color: #363635;
   border-width: 4px;
   border-style: solid;
- transition-property: all;
-  transition-duration: 800ms;        
+        
 }
-.image:hover{
-  transform: rotate(360deg);
-  filter: grayscale(0%);   
 
-
-}
