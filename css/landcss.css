@@ -211,6 +211,11 @@ ul li:before {
   z-index: -1;
   transition: 0.5s;
 }
+
+.icon-cog {
+  color: #292996;
+}
+
 ul li:nth-child(1):before {
   background: #1c59d1;
 }
@@ -284,7 +289,7 @@ nav {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-
+*/
 .page-header-content {
   position: absolute;
 }
