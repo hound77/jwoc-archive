@@ -11,7 +11,7 @@ let countCollege= 1;
 function menteecount(){
   countMentee++;
   document.querySelector(".menteeClass").innerHTML=countMentee;
-  if(countMentee==320){
+  if(countMentee==650){
     clearInterval(mentee)
   }
 }
