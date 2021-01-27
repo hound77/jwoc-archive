@@ -12,9 +12,8 @@ body{
 }
 .flex-container{
     display: flex;
-    height:600px;
-    width:100%;
     flex-wrap: wrap;
+     width:100%;
     margin-left:100px;
 }
 .item img{
