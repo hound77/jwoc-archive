@@ -25,7 +25,7 @@
 body {
   margin: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
   line-height: 1.6;
  
@@ -46,7 +46,7 @@ body {
 }
 
 #showcase h1 {
-  font-size: 90px;
+  font-size: 5rem;
   
   line-height: 1.2;
   color: #1db954;
@@ -58,11 +58,11 @@ body {
 }
 
 #showcase p {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
   text-shadow: 1px 1px #9a1faf;
-  
+  margin-bottom: 7%;
 }
 
 #showcase .button {
@@ -112,14 +112,16 @@ body {
   text-shadow: 0 0 5px #d8ca0c, 0 0 5px #d2d426;   
 }
 
-@media (max-width: 998rem) {
+
+@media only screen and  (max-width: 768px) {
   html.h1 {
-    font-size: 25%;
+    font-size: 2px;
   }
 }
-@media (max-width: 768rem) {
+
+@media only screen and (max-width: 998px) {
   html.h1 {
-    font-size: 20%;
+    font-size: 2rem;
   }
 }
 
@@ -192,7 +194,7 @@ ul li {
   text-align: center;
 }
 ul li:before {
-  position: absolute;
+  position: relative;
 
   bottom: 200px;
   right: 290px;
@@ -203,12 +205,17 @@ ul li:before {
   left: 0;
   height: inherit;
   width: inherit;
-  /* background: #d35400; */
+
   border-radius: 50%;
   transform: scale(0.9);
   z-index: -1;
   transition: 0.5s;
 }
+
+.icon-cog {
+  color: #292996;
+}
+
 ul li:nth-child(1):before {
   background: #1c59d1;
 }
@@ -219,8 +226,7 @@ ul li:nth-child(2):before {
 ul li:hover:before {
   filter: blur(4px);
   transform: scale(1.2);
-  /*box-shadow: 0 0 15px #d35400;
-  */:;
+
   -webkit-filter: blur(4px);
   
 }
@@ -258,9 +264,10 @@ ul li:nth-child(3):hover {
 }
 
 .body-particles{
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
+
   z-index: -100;
 }
 
@@ -268,21 +275,31 @@ ul li:nth-child(3):hover {
   z-index: 1;
 }
 
+nav {
+  z-index: 1;
+}
+
 #particles-js {
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   left: 0;
   z-index: 0;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-
+*/
 .page-header-content {
-  position: relative;
+  position: absolute;
 }
 canvas {
   display: block;
   vertical-align: bottom;
 }
+
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
