@@ -128,7 +128,7 @@
   color: black;
   background-image: url("/images/Team/img_avatar.png");
   background-size: 300px 350px;
-  padding: 30% 20px;
+ 
 }
 
 .back-card-text {
@@ -154,9 +154,9 @@
 }
 .image{
   position:sticky;
-
-  height: 250px;
-  width: 250px;
+object-fit: cover;
+  height: 350px;
+  width: 300px;
  border-radius: 10%;
   border-color: #363635;
   border-width: 4px;
