@@ -4,17 +4,17 @@ body{
     color:#ffffff;
 }
 .projects p{
-    font-size: 30px;
     color:#ffffff;
     text-align:center;
-    font-size: 40px;
+    font-size: 10px;
     text-decoration-line: underline;
 }
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    margin-left:100px;
+    justify-content: center;
+    align-items: center;
 }
 .item img{
    border-top-left-radius: 10px;
