@@ -6,6 +6,7 @@
   font-size:15px;
   line-height:24px;
   color:#EEEEEE;
+  margin-top: 200px;
 }
 .site-footer h5
 {
@@ -150,16 +151,42 @@
 
 #team
 {
-    margin:120px 0;
+    margin-top:200px;
+    margin-bottom: 100px;
 }
 .image{
   position:sticky;
 object-fit: cover;
   height: 350px;
   width: 300px;
- border-radius: 10%;
-  border-color: #363635;
+ border-radius: 20px;
+  border-color: #ffffff;
   border-width: 4px;
   border-style: solid;
         
+}
+
+.team__heading_2019 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  font-size: 40px;
+  outline: none;
+  color: #EEEEEE;  
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  from { 
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.team__heading_2019:hover {
+    color: #1db954;
+    transition: 0.2s;
+    font-size: 42px;
 }

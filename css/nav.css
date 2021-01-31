@@ -12,10 +12,14 @@
 
 a.ex {
     color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 2px;
+    text-decoration: none;
 }
 
 a.ex1:hover,
 a.ex1:active {
     color: #1db954;
     font-size: 120%;
+    transition: 0.2s;
 }
