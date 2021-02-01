@@ -1,8 +1,148 @@
  /*  index page css */
+ .container1{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.box1 .floating-image
+{
+ max-width: 550px;
+ 
+}
+.box4 .floating-image
+{
+ max-width: 550px;
+ justify-content: center;
+}
+.box5 .floating-image
+{
+ max-width: 550px;
+ justify-content: center;
+} 
+.box2{
+ justify-content: center;
+ align-content: center;
+ max-height: fit-content;
+ padding-left: 50px;
+ padding-right: 50px;
+ margin-right: 0%;
+}
+.box3{
+ justify-content: center;
+ padding-top: 50px;
+ align-content: center;
+ max-height: fit-content;
+ padding-left: 50px;
+ padding-right: 50px;
+ margin-right: 0%;
+}
+.box6{
+ justify-content: center;
+ align-content: center;
+ padding-top: 30px;
+ max-height: fit-content;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom: 40px;
+ margin-right: 0%;
+}
+@media(max-width:1116px){
+ .box1 .floating-image
+ {
+   max-width: 450px;
+ }
+ .box4 .floating-image
+ {
+   max-width: 450px;
+ }
+ .box5 .floating-image
+ {
+   max-width: 450px;
+ }
+
+ #box1a{ order: 1;}
+ #box2a{ order: 2;}
+ #box3a{ order: 4;}
+ #box4a{ order: 3;}
+ #box5a{ order: 5;}
+ #box6a{ order: 6;}
+}
+
+@media(min-width:786px){
+ .box1 .floating-image
+ {
+   max-width: 550px;
+ }
+ .box4 .floating-image
+ {
+   max-width: 550px;
+ }
+ .box5 .floating-image
+ {
+   max-width: 550px;
+ }
+ .box2{
+   align-content: center;
+   justify-content: center;
+   max-height: fit-content;
+   padding-top: 50px;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-right: 0%;
+ }
+ .box3{
+   align-content: center;
+   justify-content: center;
+   max-height: fit-content;
+   padding-top: 70px;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-right: 0%;
+ }
+ .box6{
+   align-content: center;
+   justify-content: center;
+   max-height: fit-content;
+   padding-top: 50px;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-right: 0%;
+ }
+}
+
+@media(max-width:786px){
+ .box1 .floating-image
+{
+ max-width: 450px;
+}
+.box4 .floating-image
+{
+ max-width: 450px;
+}
+.box5
+{
+ max-width: 450px;
+}
+
+#box1a{ order: 1;}
+#box2a{ order: 2;}
+#box3a{ order: 4;}
+#box4a{ order: 3;}
+#box5a{ order: 5;}
+#box6a{ order: 6;}
+}
+@media(min-width:1117px){
+  .box2{max-width: 50%;}
+  .box3{max-width: 50%;}
+  .box6{max-width: 50%;}   
+}
 
 .site-footer
 {
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom:0;
   background-color:#141414;
