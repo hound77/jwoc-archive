@@ -137,7 +137,7 @@
 }
 
 .testimonial-img{
-  width: 05%;
+  width: 60px;
   border-radius: 100%;
   margin: 20px;
 }
@@ -168,7 +168,22 @@
 .carousel-item{
   height: 200px;
 }
-
+@media(max-width:1120px){
+  .carousel-item{
+    height: 250px;
+  }
+  .testimonial-img{
+    width: 50px;
+  }
+}
+@media(max-width:736px){
+  .carousel-item{
+    height: 300px;
+  }
+  .testimonial-img{
+    width: 40px;
+  }
+}
 .slider__btn {
   position: absolute;
   top: 50%;
