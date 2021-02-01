@@ -269,3 +269,97 @@
 .circle-tile-content, .circle-tile-heading{
   background-color: #1DB954;
 }
+/* slider */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.testimonial-img{
+  width: 60px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials h6{
+  color: #1DB954;
+}
+
+#testimonials h1{
+  margin-bottom: 100px;
+  color: rgb(0, 0, 0);
+}
+.icon{
+  color: #000000;
+}
+.testimonial-text{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 50px;
+}
+.start-quote {
+	font-size: 3.5rem;
+	position: absolute;
+  bottom: 70%;
+	left: 15%;
+	color: rgba(51, 189, 81, 0.418);
+}
+.carousel-item{
+  height: 200px;
+}
+@media(max-width:1120px){
+  .carousel-item{
+    height: 250px;
+  }
+  .testimonial-img{
+    width: 50px;
+  }
+}
+@media(max-width:736px){
+  .carousel-item{
+    height: 300px;
+  }
+  .testimonial-img{
+    width: 40px;
+  }
+}
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
+}
+
+.slider__btn--left {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.slider__btn--right {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activeDot, .dot:hover {
+  background-color: #1DB954;
+}
