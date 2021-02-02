@@ -23,6 +23,7 @@
  justify-content: center;
 } 
 .box2{
+ font-style: oblique;
  justify-content: center;
  align-content: center;
  max-height: fit-content;
@@ -31,6 +32,7 @@
  margin-right: 0%;
 }
 .box3{
+ font-style: oblique;
  justify-content: center;
  padding-top: 50px;
  align-content: center;
@@ -40,6 +42,7 @@
  margin-right: 0%;
 }
 .box6{
+  font-style: oblique;
  justify-content: center;
  align-content: center;
  padding-top: 30px;
@@ -49,6 +52,7 @@
  padding-bottom: 40px;
  margin-right: 0%;
 }
+
 @media(max-width:1116px){
  .box1 .floating-image
  {
@@ -272,6 +276,7 @@
 /* slider */
 #testimonials{
   padding: 7% 15%;
+  margin-top: 20px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -284,10 +289,15 @@
 
 #testimonials h6{
   color: #1DB954;
+  font-style: italic;
+  align-content: center;
 }
 
 #testimonials h1{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-style: oblique;
+  align-content: center;
   color: rgb(0, 0, 0);
 }
 .icon{
@@ -296,14 +306,14 @@
 .testimonial-text{
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .start-quote {
 	font-size: 3.5rem;
 	position: absolute;
   bottom: 70%;
 	left: 15%;
-	color: rgba(51, 189, 81, 0.418);
+	color: rgba(6, 153, 38, 0.418);
 }
 .carousel-item{
   height: 200px;
@@ -326,14 +336,13 @@
 }
 .slider__btn {
   position: absolute;
-  top: 50%;
+  top: 15%;
   z-index: 10;
 
   border: none;
   background: rgba(255, 255, 255, 0.7);
   font-family: inherit;
   color: #333;
-  border-radius: 50%;
   height: 5.5rem;
   width: 5.5rem;
   font-size: 3.25rem;
@@ -341,12 +350,13 @@
 }
 
 .slider__btn--left {
-  left: 6%;
+  left: 2%;
+  border: none;
   transform: translate(-50%, -50%);
 }
 
 .slider__btn--right {
-  right: 6%;
+  right: 4%;
   transform: translate(50%, -50%);
 }
 .dot {
