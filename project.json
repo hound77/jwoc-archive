@@ -228,5 +228,217 @@
         "profile":"https://github.com/hound77",
        "github":"hound77"
      }
+    ],
+    
+
+    "card19":
+    [
+       {
+          "id":"dash",
+          "img":"https://www.dignited.com/wp-content/uploads/2019/03/Sharing-Data-Between-Two-Laptop-Using-SHAREit.jpg",
+          "h3":"DASH",
+          "p":"DASH is a CLI tool for faster, safer and Smarter way to transfer files between two users.",
+          "link":"https://github.com/0xPrateek/DASH",
+          "profile":"https://github.com/0xPrateek",
+          "github":"0xPrateek"
+       },
+       {
+         "id":"stake",
+         "img":"https://cybersecurityfuture.files.wordpress.com/2018/04/softwarea.jpg?w=1100",
+         "h3":"Stake",
+         "p":"Stake is an Subdomain enumration + Subdomain Takeover tool.",
+         "link":"https://github.com/0xPrateek/Stake",
+         "profile":"https://github.com/0xPrateek",
+         "github":"0xPrateek"
+      },
+      {
+         "id":"syphus",
+         "img":"https://www.flip180media.com/wp-content/uploads/2019/04/bac5-min-1024x708.jpg",
+         "h3":"Syphus - An OpenSource Online Magazine Backend",
+         "p":"Syphus: lost brother of Sisyphus, caught in the same act of rising and falling",
+         "link":"https://github.com/iit-technology-ambit/Syphus",
+         "profile":"https://github.com/thealphadollar",
+         "github":"thealphadollar"
+      },
+      {
+         "id":"webtech",
+         "img":"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/65013649/original/d66427804aff912a3240edebf6cdc2a8215783ce/put-your-logo-or-website-on-10-laptop-screen-mockup.jpg",
+         "h3":"Web tech",
+         "p":"Identify the technologies used on websites. (Dig-deep into web tech from your terminal)",
+         "link":"https://github.com/kaiiyer/webtech",
+         "profile":"https://github.com/kaiiyer",
+         "github":"kaiiyer"
+      },
+      {
+         "id":"netcamp",
+         "img":"https://c0.wallpaperflare.com/preview/782/729/212/access-adult-blur-cell.jpg",
+         "h3":"NetCamp",
+         "p":"Projects Made after completing a certified course on android,netwroking and php.",
+         "link":"https://github.com/LoneWolfKJ/Netcamp",
+         "profile":"https://github.com/LoneWolfKJ",
+         "github":"LoneWolfKJ"
+      },
+      {
+         "id":"moviepedia",
+         "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/halloween-movies-1600459548.jpg?crop=1xw:1xh;center,top&resize=980:*",
+         "h3":"Moviepedia",
+         "p":"List of Movies and their Actors/Actress",
+         "link":"https://github.com/samagragupta/Moviepedia/",
+         "profile":"https://github.com/samagragupta",
+         "github":"samagragupta"
+      },
+      {
+         "id":"goodreadsrec",
+         "img":"https://images.indianexpress.com/2020/04/books_1200.jpg",
+         "h3":"Goodreadsrec",
+         "p":"A book recommender system using the Goodreads API",
+         "link":"https://github.com/srdg/goodreadsrec",
+         "profile":"https://github.com/srdg",
+         "github":"srdg"
+      },
+      {
+         "id":"Org-manage-bot",
+         "img":"https://static05.cminds.com/wp-content/uploads/WP_Telegram_Bot_Plugin_Illustravive_Banner.jpg",
+         "h3":"Org-manage-bot",
+         "p":"This is a telegram bot which an organization can use to manage their group.",
+         "link":"https://github.com/nileshpatra/Org-manage-bot",
+         "profile":"https://github.com/nileshpatra",
+         "github":"nileshpatra"
+      },
+      {
+         "id":"super-resolution",
+         "img":"https://images.firstpost.com/wp-content/uploads/2019/02/Moon.jpg",
+         "h3":"Super Image Resolution",
+         "p":"Enhancing the resolution of images using SRCNN i.e recover a high resolution image from a low resolution input.",
+         "link":"https://github.com/imavijit/super_resolution",
+         "profile":"https://github.com/imavijit",
+         "github":"imavijit"
+      },
+      {
+         "id":"FaceRecognition",
+         "img":"https://dotnettec.com/wp-content/uploads/2020/11/face-recognition-attendance-system.jpg",
+         "h3":"Face Recognition System",
+         "p":"Face Recognition Based Attendance System",
+         "link":"https://github.com/mohitpd/FaceRecognition",
+         "profile":"https://github.com/mohitpd",
+         "github":"mohitpd"
+      },
+      {
+         "id":"Realtime-Creative-Chat-Application",
+         "img":"https://chatowl.com/wp-content/uploads/2020/01/anonymous-text-chat.jpg",
+         "h3":"Realtime-Creative-Chat-Application",
+         "p":"Build and Deploy a Realtime Chat Application - Socket.io, Node.js, and React.js",
+         "link":"https://github.com/PappuKP/Realtime-Creative-Chat-Application",
+         "profile":"https://github.com/PappuKP",
+         "github":"iPappuKP"
+      },
+      {
+         "id":"tictactoe_with_AI",
+         "img":"https://miro.medium.com/max/3000/1*gYYWXxLr7k4_RlIwkM1Bnw.png",
+         "h3":"tictactoe with AI",
+         "p":"The Game Has 3 modes(user easy medium hard) . The hard mode is implemented with Minimax Algorithm",
+         "link":"https://github.com/narayanshivansh49/tictactoe_with_AI",
+         "profile":"https://github.com/narayanshivansh49",
+         "github":"narayanshivansh49"
+      },
+      {
+         "id":"scaffold-static",
+         "img":"https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+         "h3":"Scaffold Static",
+         "p":"scaffold-static lets you automate the local development environment setup and build static sites (vanilla-JS) with ease.",
+         "link":"https://github.com/jamesgeorge007/scaffold-static",
+         "profile":"https://github.com/jamesgeorge007",
+         "github":"jamesgeorge007"
+      },
+      {
+         "id":"AmritaResource",
+         "img":"https://academicfitnessnw.com/wp-content/uploads/edd/2019/02/IMG_2910-1024x501.jpg",
+         "h3":"Amrita Resource",
+         "p":"An android App which contains some PDFs of classes notes of particular department of particular subject",
+         "link":"https://github.com/Chromicle/AmritaResource",
+         "profile":"https://github.com/Chromicle",
+         "github":"Chromicle"
+      },
+      {
+         "id":"Bank-Filter-App",
+         "img":"https://govtjobstyari.com/wp-content/uploads/2018/12/Foreign-banks-in-india-2.jpg",
+         "h3":"Bank Filter App",
+         "p":"Web application to search and list all the banks around multiple cities in India",
+         "link":"https://github.com/pydevsg/Bank-Filter-App",
+         "profile":"https://github.com/pydevsg",
+         "github":"pydevsg"
+      },
+      {
+         "id":"News-Summarization",
+         "img":"https://image.freepik.com/free-photo/handsome-man-reading-newspaper-street_23-2147694649.jpg",
+         "h3":"News Summarization",
+         "p":"Abstractive News Summarization using Sequence to Sequence models",
+         "link":"https://github.com/Ankita-Das/News_Summarization",
+         "profile":"https://github.com/Ankita-Das",
+         "github":"Ankita-Das"
+      },
+      {
+         "id":"RetroJam-App",
+         "img":"https://cdn-0.idownloadblog.com/wp-content/uploads/2018/03/Apple-Music-icon-002.jpg",
+         "h3":"Retro Jam App",
+         "p":"A Music App made by HTML,CSS,JavaScript",
+         "link":"https://github.com/richard937/RetroJam-App",
+         "profile":"https://github.com/richard937",
+         "github":"richard937"
+      },
+      {
+         "id":"Robofriends",
+         "img":"https://buyourobot.b-cdn.net/wp-content/uploads/edd/2015/10/00688_bot_trio_thumb.jpg",
+         "h3":"Robo Friends",
+         "p":"It is a web app created using HTML, CSS, JavaScript & React. In this app we have search box and card design. It is responsive.",
+         "link":"https://github.com/sayan05/Responsive-React-App-",
+         "profile":"https://github.com/sayan05",
+         "github":"sayan05"
+      },
+      {
+         "id":"S",
+         "img":"https://www.ausy.fr/en/sites/default/files/styles/news_detail/adaptive-image/public/news/images/image_den_tete_article_4.jpg?itok=PmBGiZ4S",
+         "h3":"S",
+         "p":"Its a easy programming language Written in Python ,help to Understand How to Write a Programming Language.",
+         "link":"https://github.com/Sanatdey/S",
+         "profile":"https://github.com/Sanatdey",
+         "github":"Sanatdey"
+      },
+      {
+         "id":"Water-Monitoring-System",
+         "img":"https://cdn.thewire.in/wp-content/uploads/2018/10/09151944/amritanshu-sikdar-268162-unsplash-1200x600.jpg",
+         "h3":"Water Monitoring System",
+         "p":"Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.",
+         "link":"https://github.com/vinitshahdeo/Water-Monitoring-System",
+         "profile":"https://github.com/vinitshahdeo",
+         "github":"vinitshahdeo"
+      },
+      {
+         "id":"DibsProjects",
+         "img":"https://www.thoughtco.com/thmb/ALJXi1tRW5C4EaYGIsTJueJU3m0=/3865x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/reflection-of-male-hacker-coding-working-hackathon-at-laptop-697538579-58e2a1b83df78c516204c470.jpg",
+         "h3":"DibsProjects",
+         "p":"Here you will get many projects that are basic and restricted to C,C++ and Python3 programming languages",
+         "link":"https://github.com/dibyendu415/DibsProjects",
+         "profile":"https://github.com/dibyendu415",
+         "github":"dibyendu415"
+      },
+      {
+         "id":"3DMMasSTN-Pytorch",
+         "img":"https://analyticsindiamag.com/wp-content/uploads/2020/11/Pytorch.png",
+         "h3":"3DMMasSTNPytorch",
+         "p":"Unofficial PyTorch implementation for incorporating a 3D Morphable Model (3DMM) into a Spatial Transformer Network (STN)",
+         "link":"https://github.com/suvojit-0x55aa/3DMMasSTN-Pytorch",
+         "profile":"https://github.com/suvojit-0x55aa",
+         "github":"suvojit-0x55aa"
+      },
+      {
+         "id":"JWoC_Algorithms",
+         "img":"https://assets.pewresearch.org/wp-content/uploads/sites/14/2017/02/08133415/PI_2017.02.08_Algorithms_featured.png",
+         "h3":"JWoC Algorithms",
+         "p":"A repository consisting of all the algorithms in various programming languages.",
+         "link":"https://github.com/JGEC-Winter-of-Code/JWoC_Algorithms",
+         "profile":"https://github.com/JGEC-Winter-of-Code",
+         "github":"JGEC-Winter-of-Code"
+      }
     ]
 }

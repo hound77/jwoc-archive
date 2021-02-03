@@ -1,5 +1,5 @@
  /*  index page css */
- .container1{
+.container1{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -315,6 +315,10 @@
   .testimonial-img{
     width: 50px;
   }
+  .top-container{
+    text-align: center;
+    height: 500px;
+  }
 }
 @media(max-width:736px){
   .carousel-item{
@@ -322,6 +326,10 @@
   }
   .testimonial-img{
     width: 40px;
+  }
+  .top-container-text{
+    padding-top: 10%;
+    margin-left: 0;
   }
 }
 .slider__btn {

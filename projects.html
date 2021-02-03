@@ -65,7 +65,7 @@
     </header>
     
   <section class="projects">
-    <p class="projects__heading">Projects by Developers' JGEC</p>
+    <h1 class="projects__heading"><em> Projects by Developers' JGEC 2020</em></h1>
   </section>
 
   <div class="flex-container" id="myData"></div>
@@ -105,6 +105,47 @@
            }
         }
       </script>
+<section class="projects">
+  <h1 class="projects__heading"><em> Projects by Developers' JGEC 2019</em></h1>
+</section>
+
+<div class="flex-container" id="myData19"></div>
+   <script>
+      fetch("project.json")
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (card19) {
+              appendData19(card19);
+          })
+          .catch(function (err) {
+              console.log('error: ' + err);
+          });
+      function appendData19(card19) {
+         var dataval=card19.card19;
+         for(var i=0;i<dataval.length;i++){
+          console.log(dataval);
+          var mainContainer = document.getElementById("myData19");
+          for (var i = 0; i < dataval.length; i++){
+            var div = document.createElement("div");
+            div.innerHTML =`
+            <div class="item" id = ${dataval[i].id} style="text-align:center">
+            <img src="${dataval[i].img}" alt="loading.." style="width:100%">
+            <h3>${dataval[i].h3}</h3>
+            <p>${dataval[i].p}</p>
+            <footer>
+            <a href="${dataval[i].link}"><button class="button">Link to Project</button></a>
+            <br>
+            <a href="${dataval[i].profile}"><i class="fa fa-github">${dataval[i].github}</i></a>
+            </footer>
+            </div>
+            `
+            mainContainer.appendChild(div);
+          }
+
+         }
+      }
+    </script>
   
 </body>
 
