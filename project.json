@@ -254,8 +254,8 @@
       {
          "id":"syphus",
          "img":"https://www.flip180media.com/wp-content/uploads/2019/04/bac5-min-1024x708.jpg",
-         "h3":"Syphus - An OpenSource Online Magazine Backend",
-         "p":"Syphus: lost brother of Sisyphus, caught in the same act of rising and falling",
+         "h3":"Syphus",
+         "p":"Syphus:  An OpenSource Online Magazine Backend",
          "link":"https://github.com/iit-technology-ambit/Syphus",
          "profile":"https://github.com/thealphadollar",
          "github":"thealphadollar"
@@ -317,7 +317,7 @@
       {
          "id":"FaceRecognition",
          "img":"https://dotnettec.com/wp-content/uploads/2020/11/face-recognition-attendance-system.jpg",
-         "h3":"Face Recognition System",
+         "h3":"FRS",
          "p":"Face Recognition Based Attendance System",
          "link":"https://github.com/mohitpd/FaceRecognition",
          "profile":"https://github.com/mohitpd",
@@ -326,7 +326,7 @@
       {
          "id":"Realtime-Creative-Chat-Application",
          "img":"https://chatowl.com/wp-content/uploads/2020/01/anonymous-text-chat.jpg",
-         "h3":"Realtime-Creative-Chat-Application",
+         "h3":"Chat-Application",
          "p":"Build and Deploy a Realtime Chat Application - Socket.io, Node.js, and React.js",
          "link":"https://github.com/PappuKP/Realtime-Creative-Chat-Application",
          "profile":"https://github.com/PappuKP",
@@ -405,15 +405,6 @@
          "github":"Sanatdey"
       },
       {
-         "id":"Water-Monitoring-System",
-         "img":"https://cdn.thewire.in/wp-content/uploads/2018/10/09151944/amritanshu-sikdar-268162-unsplash-1200x600.jpg",
-         "h3":"Water Monitoring System",
-         "p":"Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.",
-         "link":"https://github.com/vinitshahdeo/Water-Monitoring-System",
-         "profile":"https://github.com/vinitshahdeo",
-         "github":"vinitshahdeo"
-      },
-      {
          "id":"DibsProjects",
          "img":"https://www.thoughtco.com/thmb/ALJXi1tRW5C4EaYGIsTJueJU3m0=/3865x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/reflection-of-male-hacker-coding-working-hackathon-at-laptop-697538579-58e2a1b83df78c516204c470.jpg",
          "h3":"DibsProjects",
@@ -439,6 +430,15 @@
          "link":"https://github.com/JGEC-Winter-of-Code/JWoC_Algorithms",
          "profile":"https://github.com/JGEC-Winter-of-Code",
          "github":"JGEC-Winter-of-Code"
+      },
+      {
+         "id":"Water-Monitoring-System",
+         "img":"https://cdn.thewire.in/wp-content/uploads/2018/10/09151944/amritanshu-sikdar-268162-unsplash-1200x600.jpg",
+         "h3":"Water Monitoring System",
+         "p":"It is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.",
+         "link":"https://github.com/vinitshahdeo/Water-Monitoring-System",
+         "profile":"https://github.com/vinitshahdeo",
+         "github":"vinitshahdeo"
       }
     ]
 }
