@@ -28,13 +28,21 @@
 
   <script src="https://kit.fontawesome.com/d5f154924f.js" crossorigin="anonymous"></script>
   <title>jwoc archive</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="FAVICONS/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="FAVICONS/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="FAVICONS/favicon-16x16.png">
+  <link rel="manifest" href="FAVICONS/site.webmanifest">
+  <link rel="mask-icon" href="FAVICONS/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
   <header class="sticky-top">
     <nav class="navbar navbar-custom navbar-expand-lg py-0 text-light" role="navigation" style="background-color:black"> 
-        <div class="container my-2 text-light">
-            <h1 class="navbar-brand text-light text-justify" style="font-size : 2.5rem;">JWoC archive</h1>
+        <div class="container my-2 text-light"style="max-width: 100%">
+            <h1 class="py-0 navbar-brand text-light text-justify" style="font-size : 2rem;">JWoC archive</h1>
             <button class="btn-outline-light navbar-toggler ml-4" data-toggle="collapse" data-target="#nav">
                 <i class="fas fa-bars"></i>
             </button>
@@ -57,7 +65,7 @@
     </header>
     
   <section class="projects">
-    <p class="projects__heading">Projects by Developers' JGEC</p>
+    <h1 class="projects__heading"><em> Projects by Developers' JGEC 2020</em></h1>
   </section>
 
   <div class="flex-container" id="myData"></div>
@@ -97,6 +105,47 @@
            }
         }
       </script>
+<section class="projects">
+  <h1 class="projects__heading"><em> Projects by Developers' JGEC 2019</em></h1>
+</section>
+
+<div class="flex-container" id="myData19"></div>
+   <script>
+      fetch("project.json")
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (card19) {
+              appendData19(card19);
+          })
+          .catch(function (err) {
+              console.log('error: ' + err);
+          });
+      function appendData19(card19) {
+         var dataval=card19.card19;
+         for(var i=0;i<dataval.length;i++){
+          console.log(dataval);
+          var mainContainer = document.getElementById("myData19");
+          for (var i = 0; i < dataval.length; i++){
+            var div = document.createElement("div");
+            div.innerHTML =`
+            <div class="item" id = ${dataval[i].id} style="text-align:center">
+            <img src="${dataval[i].img}" alt="loading.." style="width:100%">
+            <h3>${dataval[i].h3}</h3>
+            <p>${dataval[i].p}</p>
+            <footer>
+            <a href="${dataval[i].link}"><button class="button">Link to Project</button></a>
+            <br>
+            <a href="${dataval[i].profile}"><i class="fa fa-github">${dataval[i].github}</i></a>
+            </footer>
+            </div>
+            `
+            mainContainer.appendChild(div);
+          }
+
+         }
+      }
+    </script>
   
 </body>
 
