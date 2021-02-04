@@ -56,7 +56,7 @@
       {
          "id":"crowdchatting",
         "img":"image/crowdchatting.jpg",
-        "h":"#crowdchatting",
+        "h3":"#crowdchatting",
         "p":"It's a chatting application using Firebase and real-time data base. multiple users can chat with each other in real time.",
         "link":"https://github.com/bindu-07/CrowdChatting",
         "profile":"https://github.com/bindu-07",
@@ -131,7 +131,7 @@
         "link":"https://github.com/und3fined-v01d/Friend.ly",
         "profile":"https://github.com/und3fined-v01d", 
         "github":"und3fined-v01d",
-        "category":"web"
+        "category":"ml"
 
      },
      {
@@ -206,7 +206,7 @@
         "link":"https://github.com/smaranjitghose/DocLense",
         "profile":"https://github.com/smaranjitghose",
         "github":"maranjitghose",
-        "category":"android"
+        "category":"ml"
      },
      {
         "id":"art",
@@ -381,7 +381,7 @@
          "link":"https://github.com/narayanshivansh49/tictactoe_with_AI",
          "profile":"https://github.com/narayanshivansh49",
          "github":"narayanshivansh49",
-         "category":"android"
+         "category":"ml"
       },
       {
          "id":"scaffold-static",
@@ -422,7 +422,7 @@
          "link":"https://github.com/Ankita-Das/News_Summarization",
          "profile":"https://github.com/Ankita-Das",
          "github":"Ankita-Das",
-         "category":"other"
+         "category":"datascience"
       },
       {
          "id":"RetroJam-App",
@@ -492,7 +492,7 @@
          "link":"https://github.com/vinitshahdeo/Water-Monitoring-System",
          "profile":"https://github.com/vinitshahdeo",
          "github":"vinitshahdeo",
-         "category":"web"
+         "category":"other"
       }
     ]
 }
