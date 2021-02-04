@@ -247,6 +247,7 @@ body{
 /* Drop Down CSS*/
 select {
    display: none;
+  
  }
  
  .dropdown {
@@ -261,7 +262,8 @@ select {
    box-sizing: border-box;
    cursor: pointer;
    display: block;
-   float: left;
+   float: right;
+   margin-right: 80px;
    font-size: 14px;
    font-weight: normal;
    height: 42px;
