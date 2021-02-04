@@ -8,7 +8,8 @@
         "p":"Anonymity is taken Seriously. It is a web page to confess your secrets. Speak out the things you never could.",
         "link": "https://github.com/iharshit009/SecretPeek",
         "profile":"https://github.com/iharshit009",
-        "github":"iharshit009"
+        "github":"iharshit009",
+        "category":"web"
       },
       {
          "id":"pbchess",
@@ -17,7 +18,9 @@
         "p":"An open source Online Multiplayer Game of Chess using React, Node js, Mongo DB, css etc.",
         "link": "https://github.com/fave77/pbchess",
         "profile":"https://github.com/fave77",
-        "github":"fave77"
+        "github":"fave77",
+        "category":"web"
+
       },
       {
          "id":"facex",
@@ -26,7 +29,8 @@
         "p":"An open source Face-Recognition system using different algorithms and frameworks.",
         "link":"https://github.com/akshitagupta15june/Face-X",
         "profile":"https://github.com/akshitagupta15june",
-        "github":"akshitagupta15june"
+        "github":"akshitagupta15june",
+        "category":"ml"
       },
       { 
          "id":"youtube",
@@ -35,7 +39,9 @@
         "p":"Youtube Video Downloader is an online web application to convert and download youtube videos in mp4 and mp3 format.",
         "link":"https://github.com/utpalendubarman/youtube-downloader",
         "profile":"https://github.com/utpalendubarmanr",
-        "github":"utpalendubarman"
+        "github":"utpalendubarman",
+        "category":"web"
+
       },
       {
          "id":"echoforme",
@@ -44,7 +50,8 @@
         "p":"EchoForMe is a Web Application that reads out the latest news to the user. It is designed especially for visually impaired people to help them by reading out the daily news to them.",
         "link":"https://github.com/rsrkpatwari1234/EchoForMe",
         "profile":"https://github.com/rsrkpatwari1234",
-        "github":"rsrkpatwari1234"
+        "github":"rsrkpatwari1234",
+        "category":"web"
       },
       {
          "id":"crowdchatting",
@@ -53,7 +60,8 @@
         "p":"It's a chatting application using Firebase and real-time data base. multiple users can chat with each other in real time.",
         "link":"https://github.com/bindu-07/CrowdChatting",
         "profile":"https://github.com/bindu-07",
-        "github":"bindu-07"
+        "github":"bindu-07",
+        "category":"android"
      },
      {
         "id":"girlmeetup",
@@ -62,7 +70,8 @@
         "p":"A platform where various girl related opportunities would be listed with their deadlines and details and a interface for girls to ask their queries related to technology.",
         "link":"https://github.com/chehak123/GirlMeetup",
         "profile":"https://github.com/chehak123",
-        "github":"chehak123"
+        "github":"chehak123",
+        "category":"web"
      },
      {
         "id":"sampark",
@@ -71,7 +80,8 @@
         "p":"An open-source team collaboration platform. it allows user to communicate securely in Realtime, Share File, Location and code snippets.",
         "link":"https://github.com/The-Robotics-Forum/sampark",
         "profile":"https://github.com/The-Robotics-For,um",
-        "github":"The-Robotics-Forum"
+        "github":"The-Robotics-Forum",
+        "category":"web"
      },
      {
         "id":"blogsite",
@@ -80,7 +90,8 @@
         "p":"BlogSite is a dynamic blogging website. Build using NodeJs, It render server side using Express JS, Mongoose and Mongo D.",
         "link":"https://github.com/ALPHAVIO/BlogSite",
         "profile":"https://github.com/ALPHAVIO",
-        "github":"Pranav016"
+        "github":"Pranav016",
+        "category":"web"
      },
      {
         "id":"she",
@@ -89,7 +100,8 @@
         "p":"SHE is a Women safety android application, that can be accessed easily by pressing a button and it sends an alert message along to the registered contact.",
         "link":"https://github.com/priyalbhatewara123/SHE--Live-Without-Fear",
         "profile":"https://github.com/priyalbhatewara1,23",
-        "github":"Priyalbhatewara123"
+        "github":"Priyalbhatewara123",
+        "category":"android"
      },
      {
         "id":"portscanner",
@@ -98,7 +110,8 @@
         "p":"A go-to tool for scanning network. Scan all the open ports for a given host with just one click and what not.",
         "link":"https://github.com/vinitshahdeo/PortScanner",
         "profile":"https://github.com/vinitshahdeo",
-        "github":"vinitshahdeo"
+        "github":"vinitshahdeo",
+        "category":"web"
      },
      {
         "id":"netra",
@@ -107,7 +120,8 @@
         "p":"An android application developed in Kotlin and OpenCV with features like voice control, face follower, ocr detection etc.",
         "link":"https://github.com/The-Robotics-Forum/netra",
         "profile":"https://github.com/The-Robotics-For,um",
-        "github":"The-Robotics-Forum"
+        "github":"The-Robotics-Forum",
+        "category":"android"
      },
      {
         "id":"friendly",
@@ -116,7 +130,9 @@
         "p":"With Friend.ly, we propose a novel FRS which leverages text-mining, personality trait extraction, sentiment analysis and hybrid filtering and show it to be having a better performance than most collaborative filtering based FRSs.",
         "link":"https://github.com/und3fined-v01d/Friend.ly",
         "profile":"https://github.com/und3fined-v01d", 
-        "github":"und3fined-v01d"
+        "github":"und3fined-v01d",
+        "category":"web"
+
      },
      {
         "id":"codeit",
@@ -125,7 +141,8 @@
         "p":"A CLI based tool to help users create C++ files easily for any contest.",
         "link":"https://github.com/Arch2x/codeit",
         "profile":"https://github.com/Arch2x",
-        "github":"Arch2x"
+        "github":"Arch2x",
+        "category":"other"
      },
      {
         "id":"learning",
@@ -134,7 +151,8 @@
         "p":"The project has been designed for the convenience of students to keep track of their learning rate of each student and hence personalise their experience.",
         "link":"https://github.com/anushka23g/Learning-Made-Easy",
         "profile":"https://github.com/anushka23g", 
-        "github":"anushka23g"
+        "github":"anushka23g",
+        "category":"other"
      },
      {  
         "id":"store",   
@@ -144,7 +162,9 @@
         "link":"https://github.com/Sharmi-1999/storebook",
         "button":"Link to Project</button",
         "profile":"https://github.com/Sharmi-1999",
-        "github":"Sharmi-1999"                          
+        "github":"Sharmi-1999",
+        "category":"web"
+
      },
      {
         "id":"fitility",
@@ -153,7 +173,9 @@
         "p":"The focus group of this application are the people who enjoy fitness and dance from the safety of their homes.",
         "link":"https://github.com/samflab/Fitility-OpenSource",
         "profile":"https://github.com/samflab",
-        "github":"samflab"                         
+        "github":"samflab",
+        "category":"android"
+
      },
      {  
         "id":"hacking",  
@@ -163,7 +185,8 @@
         "link":"https://github.com/Tejas1510/Hacking-Scripts",
         "button":"Link to Project</button>",
         "profile":"https://github.com/Tejas1510",
-        "github":"Tejas1510"                           
+        "github":"Tejas1510",
+        "category":"web"                          
      },
      {
         "id":"sharenlearn",
@@ -172,7 +195,8 @@
         "p":"A File/Resource Sharing Platform for Students&Faculties to upload&share files which will be accessible to all members.",
         "link":"https://github.com/chiraag-kakar/sharenlearn",
         "profile":"https://github.com/chiraag-kakar/sh,arenlearn",
-        "github":"chirag-kakkar"
+        "github":"chirag-kakkar",
+        "category":"web"
      },
      {
         "id":"doclense",
@@ -181,7 +205,8 @@
         "p":"An open source AI based document scanner app and beyond that with some cool amazing features added to it !",
         "link":"https://github.com/smaranjitghose/DocLense",
         "profile":"https://github.com/smaranjitghose",
-        "github":"maranjitghose"
+        "github":"maranjitghose",
+        "category":"android"
      },
      {
         "id":"art",
@@ -190,7 +215,8 @@
         "p":"Randomly Exploring Computer Vision techniques to create eye catching art out of plain boring images.",
         "link":"https://github.com/smaranjitghose/ArtCV",
         "profile":"https://github.com/smaranjitghose",
-        "github":"smaranjitghose"                         
+        "github":"smaranjitghose",
+        "category":"ml"                         
      },
      {
         "id":"gitkundli",
@@ -199,7 +225,8 @@
         "p":"we sometime need to fetch datas from our GitHub right. so GitKundli is a webapp that makes open source projects on GitHub much simpler with GraphQL.",
         "link":"https://github.com/smaranjitghose/GitKundli",
         "profile":"https://github.com/anushbhatia",
-        "github":"anushbhatia"                          
+        "github":"anushbhatia",
+        "category":"web"                          
      },
      {
         "id":"advance",
@@ -208,7 +235,8 @@
         "p":"Generative adversarial network (GAN) for missing data imputation.",
         "link":"https://github.com/purbayankar/Advanced_GAIN",
         "profile":"https://github.com/purbayankar", 
-        "github":"purbayankar"                         
+        "github":"purbayankar",
+        "category":"ml"                         
      },
      {
         "id":"beginner",
@@ -217,7 +245,8 @@
         "p":"This is a demo repo for beginners to understand open source better.",
         "link":"https://github.com/JGEC-Winter-of-Code/Beginner-Repo",
         "profile":"https://github.com/pydevsg", 
-        "github":"pydevsg"                           
+        "github":"pydevsg",
+        "category":"other"                           
      },
      {
         "id":"jwoc",
@@ -226,7 +255,8 @@
         "p":"With this JWoc Archive, I just attempt to collect and showcase memories of the event, and do nothing else.",
         "link":"https://github.com/hound77/jwoc-archive",
         "profile":"https://github.com/hound77",
-       "github":"hound77"
+       "github":"hound77",
+       "category":"web"
      }
     ],
     
@@ -240,7 +270,8 @@
           "p":"DASH is a CLI tool for faster, safer and Smarter way to transfer files between two users.",
           "link":"https://github.com/0xPrateek/DASH",
           "profile":"https://github.com/0xPrateek",
-          "github":"0xPrateek"
+          "github":"0xPrateek",
+          "category":"other"
        },
        {
          "id":"stake",
@@ -249,7 +280,8 @@
          "p":"Stake is an Subdomain enumration + Subdomain Takeover tool.",
          "link":"https://github.com/0xPrateek/Stake",
          "profile":"https://github.com/0xPrateek",
-         "github":"0xPrateek"
+         "github":"0xPrateek",
+         "category":"other"
       },
       {
          "id":"syphus",
@@ -258,7 +290,8 @@
          "p":"Syphus:  An OpenSource Online Magazine Backend",
          "link":"https://github.com/iit-technology-ambit/Syphus",
          "profile":"https://github.com/thealphadollar",
-         "github":"thealphadollar"
+         "github":"thealphadollar",
+         "category":"web"
       },
       {
          "id":"webtech",
@@ -267,7 +300,8 @@
          "p":"Identify the technologies used on websites. (Dig-deep into web tech from your terminal)",
          "link":"https://github.com/kaiiyer/webtech",
          "profile":"https://github.com/kaiiyer",
-         "github":"kaiiyer"
+         "github":"kaiiyer",
+         "category":"web"
       },
       {
          "id":"netcamp",
@@ -276,7 +310,8 @@
          "p":"Projects Made after completing a certified course on android,netwroking and php.",
          "link":"https://github.com/LoneWolfKJ/Netcamp",
          "profile":"https://github.com/LoneWolfKJ",
-         "github":"LoneWolfKJ"
+         "github":"LoneWolfKJ",
+         "category":"android"
       },
       {
          "id":"moviepedia",
@@ -285,7 +320,8 @@
          "p":"List of Movies and their Actors/Actress",
          "link":"https://github.com/samagragupta/Moviepedia/",
          "profile":"https://github.com/samagragupta",
-         "github":"samagragupta"
+         "github":"samagragupta",
+         "category":"web"
       },
       {
          "id":"goodreadsrec",
@@ -294,7 +330,8 @@
          "p":"A book recommender system using the Goodreads API",
          "link":"https://github.com/srdg/goodreadsrec",
          "profile":"https://github.com/srdg",
-         "github":"srdg"
+         "github":"srdg",
+         "category":"web"
       },
       {
          "id":"Org-manage-bot",
@@ -303,7 +340,8 @@
          "p":"This is a telegram bot which an organization can use to manage their group.",
          "link":"https://github.com/nileshpatra/Org-manage-bot",
          "profile":"https://github.com/nileshpatra",
-         "github":"nileshpatra"
+         "github":"nileshpatra",
+         "category":"other"
       },
       {
          "id":"super-resolution",
@@ -312,7 +350,8 @@
          "p":"Enhancing the resolution of images using SRCNN i.e recover a high resolution image from a low resolution input.",
          "link":"https://github.com/imavijit/super_resolution",
          "profile":"https://github.com/imavijit",
-         "github":"imavijit"
+         "github":"imavijit",
+         "category":"ml"
       },
       {
          "id":"FaceRecognition",
@@ -321,7 +360,8 @@
          "p":"Face Recognition Based Attendance System",
          "link":"https://github.com/mohitpd/FaceRecognition",
          "profile":"https://github.com/mohitpd",
-         "github":"mohitpd"
+         "github":"mohitpd",
+         "category":"ml"
       },
       {
          "id":"Realtime-Creative-Chat-Application",
@@ -330,7 +370,8 @@
          "p":"Build and Deploy a Realtime Chat Application - Socket.io, Node.js, and React.js",
          "link":"https://github.com/PappuKP/Realtime-Creative-Chat-Application",
          "profile":"https://github.com/PappuKP",
-         "github":"iPappuKP"
+         "github":"iPappuKP",
+         "category":"web"
       },
       {
          "id":"tictactoe_with_AI",
@@ -339,7 +380,8 @@
          "p":"The Game Has 3 modes(user easy medium hard) . The hard mode is implemented with Minimax Algorithm",
          "link":"https://github.com/narayanshivansh49/tictactoe_with_AI",
          "profile":"https://github.com/narayanshivansh49",
-         "github":"narayanshivansh49"
+         "github":"narayanshivansh49",
+         "category":"android"
       },
       {
          "id":"scaffold-static",
@@ -348,7 +390,9 @@
          "p":"scaffold-static lets you automate the local development environment setup and build static sites (vanilla-JS) with ease.",
          "link":"https://github.com/jamesgeorge007/scaffold-static",
          "profile":"https://github.com/jamesgeorge007",
-         "github":"jamesgeorge007"
+         "github":"jamesgeorge007",
+         "category":"web"
+
       },
       {
          "id":"AmritaResource",
@@ -357,7 +401,8 @@
          "p":"An android App which contains some PDFs of classes notes of particular department of particular subject",
          "link":"https://github.com/Chromicle/AmritaResource",
          "profile":"https://github.com/Chromicle",
-         "github":"Chromicle"
+         "github":"Chromicle",
+         "category":"android"
       },
       {
          "id":"Bank-Filter-App",
@@ -366,7 +411,8 @@
          "p":"Web application to search and list all the banks around multiple cities in India",
          "link":"https://github.com/pydevsg/Bank-Filter-App",
          "profile":"https://github.com/pydevsg",
-         "github":"pydevsg"
+         "github":"pydevsg",
+         "category":"web"
       },
       {
          "id":"News-Summarization",
@@ -375,7 +421,8 @@
          "p":"Abstractive News Summarization using Sequence to Sequence models",
          "link":"https://github.com/Ankita-Das/News_Summarization",
          "profile":"https://github.com/Ankita-Das",
-         "github":"Ankita-Das"
+         "github":"Ankita-Das",
+         "category":"other"
       },
       {
          "id":"RetroJam-App",
@@ -384,7 +431,8 @@
          "p":"A Music App made by HTML,CSS,JavaScript",
          "link":"https://github.com/richard937/RetroJam-App",
          "profile":"https://github.com/richard937",
-         "github":"richard937"
+         "github":"richard937",
+         "category":"web"
       },
       {
          "id":"Robofriends",
@@ -393,7 +441,8 @@
          "p":"It is a web app created using HTML, CSS, JavaScript & React. In this app we have search box and card design. It is responsive.",
          "link":"https://github.com/sayan05/Responsive-React-App-",
          "profile":"https://github.com/sayan05",
-         "github":"sayan05"
+         "github":"sayan05",
+         "category":"web"
       },
       {
          "id":"S",
@@ -402,7 +451,8 @@
          "p":"Its a easy programming language Written in Python ,help to Understand How to Write a Programming Language.",
          "link":"https://github.com/Sanatdey/S",
          "profile":"https://github.com/Sanatdey",
-         "github":"Sanatdey"
+         "github":"Sanatdey",
+         "category":"other"
       },
       {
          "id":"DibsProjects",
@@ -411,7 +461,8 @@
          "p":"Here you will get many projects that are basic and restricted to C,C++ and Python3 programming languages",
          "link":"https://github.com/dibyendu415/DibsProjects",
          "profile":"https://github.com/dibyendu415",
-         "github":"dibyendu415"
+         "github":"dibyendu415",
+         "category":"other"
       },
       {
          "id":"3DMMasSTN-Pytorch",
@@ -420,7 +471,8 @@
          "p":"Unofficial PyTorch implementation for incorporating a 3D Morphable Model (3DMM) into a Spatial Transformer Network (STN)",
          "link":"https://github.com/suvojit-0x55aa/3DMMasSTN-Pytorch",
          "profile":"https://github.com/suvojit-0x55aa",
-         "github":"suvojit-0x55aa"
+         "github":"suvojit-0x55aa",
+         "category":"ml"
       },
       {
          "id":"JWoC_Algorithms",
@@ -429,7 +481,8 @@
          "p":"A repository consisting of all the algorithms in various programming languages.",
          "link":"https://github.com/JGEC-Winter-of-Code/JWoC_Algorithms",
          "profile":"https://github.com/JGEC-Winter-of-Code",
-         "github":"JGEC-Winter-of-Code"
+         "github":"JGEC-Winter-of-Code",
+         "category":"other"
       },
       {
          "id":"Water-Monitoring-System",
@@ -438,7 +491,8 @@
          "p":"It is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.",
          "link":"https://github.com/vinitshahdeo/Water-Monitoring-System",
          "profile":"https://github.com/vinitshahdeo",
-         "github":"vinitshahdeo"
+         "github":"vinitshahdeo",
+         "category":"web"
       }
     ]
 }
