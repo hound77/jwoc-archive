@@ -4,7 +4,7 @@
       { 
         "id":"secretpeek", 
         "img":"image/secretpeek.jpg",
-        "h3":"#Secret peek;",
+        "h3":"#Secret peek",
         "p":"Anonymity is taken Seriously. It is a web page to confess your secrets. Speak out the things you never could.",
         "link": "https://github.com/iharshit009/SecretPeek",
         "profile":"https://github.com/iharshit009",
@@ -201,7 +201,7 @@
      {
         "id":"doclense",
         "img":"image/doclense.jpg",
-        "h3":"#Doclense;",        
+        "h3":"#Doclense",        
         "p":"An open source AI based document scanner app and beyond that with some cool amazing features added to it !",
         "link":"https://github.com/smaranjitghose/DocLense",
         "profile":"https://github.com/smaranjitghose",
