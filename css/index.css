@@ -1,11 +1,18 @@
  /*  index page css */
+header.sticky-top {
+  position: fixed;
+}
  .top-container{
-   background-image: url("https://www.customerparadigm.com/wp-content/uploads/2019/11/code-featured-splash-background-blur.jpg");
+   position: relative;
+   background-image: url("https://stsaz.com/wp-content/uploads/2020/02/Green-Abstract-Digital-Lines-Background.jpg");
    background-attachment: fixed;
    background-repeat: no-repeat;
-   height: 670px;
-   padding-top: 10%;
+   height: 100vh;
+   padding-top: 15%;
  }
+.sticky{
+  background-color: black;
+}
  .top-container-text{
    color: #fff;
    padding-top: 60px;
