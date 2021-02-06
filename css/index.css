@@ -42,6 +42,7 @@ header.sticky-top {
   margin-bottom: 20px;
   margin-top: 30px;
 }
+
 .box1 .floating-image
 {
  max-width: 550px;
@@ -419,4 +420,9 @@ header.sticky-top {
 
 .activeDot, .dot:hover {
   background-color: #1DB954;
+}
+
+.container1 img{
+  width: 100%;
+  max-width: 100%; 
 }
