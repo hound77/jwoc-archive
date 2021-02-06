@@ -1,4 +1,39 @@
  /*  index page css */
+header.sticky-top {
+  position: fixed;
+}
+ .top-container{
+   position: relative;
+   background-image: url("https://www.customerparadigm.com/wp-content/uploads/2019/11/code-featured-splash-background-blur.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   height: 100vh;
+   padding-top: 15%;
+   scroll-behavior: smooth;
+ }
+.sticky{
+  background-color: black;
+}
+ .top-container-text{
+   color: #fff;
+   padding-top: 60px;
+   padding-left: 100px;
+   padding-bottom: 60px;
+ }
+ .hwg-btn{
+   text-decoration: none;
+   padding: 5px 10px;
+   color: #fff;
+   border: 2px solid #fff;
+   display: inline-block;
+   text-transform: uppercase;
+   margin-top: 10px;
+ }
+ .hwg-btn:hover{
+   text-decoration: none;
+   color: #fff;
+   background-color: rgb(80, 80, 80);
+ }
 .container1{
   display:flex;
   flex-wrap: wrap;
@@ -327,7 +362,11 @@
   }
   .top-container{
     text-align: center;
-    height: 500px;
+    padding-top: 200px;
+  }
+  .top-container-text{
+    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media(max-width:736px){
@@ -338,8 +377,8 @@
     width: 40px;
   }
   .top-container-text{
-    padding-top: 10%;
-    margin-left: 0;
+    margin-left: 0px;
+    padding: 40px 10px;
   }
 }
 .slider__btn {
