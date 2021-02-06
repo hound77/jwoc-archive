@@ -263,7 +263,7 @@ select {
    cursor: pointer;
    display: block;
    float: right;
-   margin-right: 80px;
+   /* margin-right: 80px; */
    font-size: 14px;
    font-weight: normal;
    height: 42px;
@@ -348,7 +348,7 @@ select {
    pointer-events: none;
    position: absolute;
    top: 100%;
-   left: 0;
+   right: 0;
    z-index: 999;
  }
  .dropdown .list:hover .option:not(:hover) {
@@ -372,6 +372,12 @@ select {
  }
  .dropdown .option.selected:focus {
    background: #f6f6f6;
+ }
+
+ @media screen and (max-width : 600px){
+  .dropdown {
+    width: 66%;
+  }
  }
  
 
