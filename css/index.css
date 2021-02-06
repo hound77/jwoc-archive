@@ -4,11 +4,12 @@ header.sticky-top {
 }
  .top-container{
    position: relative;
-   background-image: url("https://stsaz.com/wp-content/uploads/2020/02/Green-Abstract-Digital-Lines-Background.jpg");
+   background-image: url("https://www.customerparadigm.com/wp-content/uploads/2019/11/code-featured-splash-background-blur.jpg");
    background-attachment: fixed;
    background-repeat: no-repeat;
    height: 100vh;
    padding-top: 15%;
+   scroll-behavior: smooth;
  }
 .sticky{
   background-color: black;
@@ -27,7 +28,6 @@ header.sticky-top {
    display: inline-block;
    text-transform: uppercase;
    margin-top: 10px;
-   scroll-behavior: smooth;
  }
  .hwg-btn:hover{
    text-decoration: none;
