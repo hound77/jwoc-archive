@@ -11,17 +11,19 @@
   border: 10px solid red;
   
 } */
-
+.logo-img{
+  width: 100px;
+  height: 100px;
+}
 
 body {  
   font-size: 1em; 
 }
-
 .h1-landpage {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 4rem;
   line-height: 1.2;
-  color: #1db954;
+  color: #fff;
   position: unset;
   left: 5%;
   top: 8%;
@@ -37,7 +39,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 1px 1px #9a1faf;
-  margin-bottom: 7%;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width:470px)
@@ -49,9 +51,8 @@ body {
 }
 
 #showcase {
-  /* background-image: linear-gradient(rgba(4, 23, 24, 0.089), #000000), url(/jwoc-archive/image/mainbenner\ -\ Copy\ 2.png); */
-  background-color: black;
-  background-size: cover;
+  background-image: url("https://i.pinimg.com/originals/ef/4c/90/ef4c900b79bafd0eeec406a45497c258.jpg");
+  background-repeat: no-repeat;
   max-width: 100%;
   background-position: center;
   height: 100vh;
@@ -67,13 +68,12 @@ body {
   font-size: 1rem;
   font-family: "Balsamiq Sans", cursive;
   text-decoration: none;
-  color: #1db954;
+  color: #091133;
   border: #242220 1px solid;
   padding: 3%;
   border-radius: 1rem;
   margin-top: 0px;
-  /*box-shadow: 3px 4px #4352a5;
-  */text-shadow: 2px 2px #92b5c4;
+  text-shadow: 2px 2px #92b5c4;
   position: relative;
   text-align: center;
   width: 10px;
@@ -82,7 +82,7 @@ body {
   color: #ffffff;
   /*font-family: poppins;
   */font-weight: 100;
-  border: 2px solid #1db953;
+  border: 2px solid #091133;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
@@ -98,19 +98,17 @@ body {
   -o-transition: 0.5s;
   z-index:1;
   font-weight: bold;
-  background-color:#18e239;
+  background-color:#121b44;
 }
 
 #showcase .button:hover {
   /* background: #29af3b; */
   color:#ffffff;
   font-weight: bold;
-  box-shadow: 0 2px 20px 0 #1db963 inset, 0 5px 50px 0 #058363,
-              0 2px 20px 0 #20b32c inset, 0 5px 50px 0 #066d31;
-  text-shadow: 0 0 5px #d8ca0c, 0 0 5px #d2d426;   
+  box-shadow: 0 2px 20px 0 #1a1864 inset, 0 5px 50px 0 #030852,
+              0 2px 20px 0 #2022b3 inset, 0 5px 50px 0 #0b0655;
+  text-shadow: 0 0 5px #0ccad8, 0 0 5px #26c0d4;   
 }
-
-
 
 #section-a {
   padding: 20px;
@@ -199,15 +197,17 @@ ul li:before {
   transition: 0.5s;
 }
 
+
 .icon-cog {
-  color: #00ff0d;
-}
+  color: #121b44;
+} 
+
 
 ul li:nth-child(1):before {
-  background: #00ff0d;
+  background: #121b44;
 }
 ul li:nth-child(2):before {
-  background:  #91ff00;
+  background:  #131a7e;
 }
 
 ul li:hover:before {
@@ -218,35 +218,35 @@ ul li:hover:before {
   
 }
 ul li:nth-child(1):hover:before {
-  box-shadow: 0 0 15px #00ff0d;
+  box-shadow: 0 0 15px #121b44;
 }
 ul li:nth-child(2):hover:before {
-  box-shadow: 0 0 15px #91ff00;
+  box-shadow: 0 0 15px #131a7e;
 }
 ul li:nth-child(3):hover:before {
   box-shadow: 0 0 15px #000102;
 }
 
 ul li:nth-child(1):hover {
-  color: #355210;
+  color: #121b44;
   box-shadow: 0 0 15px #d5d9df;
-  text-shadow: 0 0 15px#fbff00;
-  box-shadow: 0 2px 10px 0 #0e7c04 inset, 0 5px 15px 0 #50da00,
-              0 2px 10px 0 #089c1b inset, 0 5px 15px 0 #61ec03;
+  text-shadow: 0 0 15px#00b7ffda;
+  box-shadow: 0 2px 10px 0 #1a1864 inset, 0 5px 15px 0 #030852,
+              0 2px 10px 0 #2022b3 inset, 0 5px 15px 0 #0b0655;
 }
 ul li:nth-child(2):hover {
-  color: #355210;
+  color: #121b44;
   box-shadow: 0 0 15px #d5d9df;
-  text-shadow: 0 0 15px #fbff00;
-  box-shadow: 0 2px 10px 0 #0e7c04 inset, 0 5px 15px 0 #50da00,
-              0 2px 10px 0 #089c1b inset, 0 5px 15px 0 #61ec03;
+  text-shadow: 0 0 15px #00b7ffda;
+  box-shadow: 0 2px 10px 0 #1a1864 inset, 0 5px 15px 0 #030852,
+              0 2px 10px 0 #2022b3 inset, 0 5px 15px 0 #0b0655;
 }
 ul li:nth-child(3):hover {
-  color: #355210;
+  color: #121b44;
   box-shadow: 0 0 15px #d5d9df;
-  text-shadow: 0 0 15px#fbff00;
-  box-shadow: 0 2px 10px 0 #0e7c04 inset, 0 5px 15px 0 #50da00,
-              0 2px 10px 0 #089c1b inset, 0 5px 15px 0 #61ec03;  
+  text-shadow: 0 0 15px#00b7ffda;
+  box-shadow: 0 2px 10px 0#1a1864 inset, 0 5px 15px 0 #030852,
+              0 2px 10px 0 #2022b3 inset, 0 5px 15px 0 #0b0655;  
 }
 
 .body-particles{
