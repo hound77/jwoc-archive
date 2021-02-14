@@ -331,10 +331,9 @@ header.sticky-top {
 
 #testimonials h1{
   margin-bottom: 50px;
-  font-weight: bolder;
-  font-style: oblique;
   align-content: center;
   color: rgb(0, 0, 0);
+  font-family: 'Lobster', cursive;
 }
 .icon{
   color: #000000;
@@ -425,4 +424,56 @@ header.sticky-top {
 .container1 img{
   width: 100%;
   max-width: 100%; 
+}
+.winner-container{
+  text-align: center;
+}
+.box{
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.winner-img{
+  width: 100%;
+  height: 100%;
+}
+.snake{
+  position: relative;
+  overflow: hidden;
+}
+.overlay{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+}
+.overlay-content{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 25%;
+  color: #fff;
+  width: 100%;
+}
+.winner-heading{
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+}
+.year{
+  text-align: center;
+  color: #1db954;
+  font-weight: bolder;
+  margin: 50px;
 }
