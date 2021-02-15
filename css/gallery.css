@@ -11,6 +11,7 @@ section {
   height: fit-content;
   width: 100%;
   margin-bottom: 80px;
+  margin-top: 30px;
 }
 #feat {
   position: relative;
