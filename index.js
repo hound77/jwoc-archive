@@ -93,3 +93,8 @@ function showSlidesAuto() {
   dots[slideIndexAuto-1].className += " activeDot"; 
   setTimeout(showSlidesAuto, 5000);
 }
+
+window.addEventListener("scroll", function() {
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky",window.scrollY > 0);
+});

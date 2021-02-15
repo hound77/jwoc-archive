@@ -11,7 +11,7 @@
   <meta name="author" content="jwoc archive">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <link rel="stylesheet" href="./css/projects.css" />
     <link rel="stylesheet" href="./css/nav.css" />
     <link
@@ -65,7 +65,25 @@
     </header>
     
   <section class="projects">
-    <p class="projects__heading">Projects by Developers' JGEC</p>
+    <h1 class="projects__heading"><em> Projects by Developers' JWOC 2020</em></h1>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cat-dropdown">
+                 
+                <select class="category-list">
+                    <option value="all">All</option>
+                    <option value="web">Web Development</option>
+                    <option value="android">App Development</option>
+                    <option value="ml">AI and Machine Learning</option>
+                    <option value="datascience">Data Science</option>
+                    <option value="other">Others</option>
+                </select>
+             </div>
+            </div>
+        </div>
+    </div>
+
   </section>
 
   <div class="flex-container" id="myData"></div>
@@ -88,7 +106,8 @@
             for (var i = 0; i < data.length; i++){
               var div = document.createElement("div");
               div.innerHTML =`
-              <div class="item" id = ${data[i].id}>
+              <div class="card-container">
+              <div class="item card-data" id = ${data[i].id} data-category="${data[i].category}">
               <img src="${data[i].img}" alt="loading.." style="width:100%">
               <h3>${data[i].h3}</h3>
               <p>${data[i].p}</p>
@@ -98,6 +117,7 @@
               <a href="${data[i].profile}"><i class="fa fa-github">${data[i].github}</i></a>
               </footer>
               </div>
+              </div>
               `
               mainContainer.appendChild(div);
             }
@@ -105,6 +125,49 @@
            }
         }
       </script>
+<section class="projects">
+  <h1 class="projects__heading"><em> Projects by Developers' JWOC 2019</em></h1>
+</section>
+
+<div class="flex-container" id="myData19"></div>
+   <script>
+      fetch("project.json")
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (card19) {
+              appendData19(card19);
+          })
+          .catch(function (err) {
+              console.log('error: ' + err);
+          });
+      function appendData19(card19) {
+         var dataval=card19.card19;
+         for(var i=0;i<dataval.length;i++){
+          console.log(dataval);
+          var mainContainer = document.getElementById("myData19");
+          for (var i = 0; i < dataval.length; i++){
+            var div = document.createElement("div");
+            div.innerHTML =`
+            <div class="card-container">
+            <div class="item card-data" id = ${dataval[i].id} data-category="${dataval[i].category}" style="text-align:center">
+            <img src="${dataval[i].img}" alt="loading.." style="width:100%">
+            <h3>${dataval[i].h3}</h3>
+            <p>${dataval[i].p}</p>
+            <footer>
+            <a href="${dataval[i].link}"><button class="button">Link to Project</button></a>
+            <br>
+            <a href="${dataval[i].profile}"><i class="fa fa-github">${dataval[i].github}</i></a>
+            </footer>
+            </div>
+            </div>
+            `
+            mainContainer.appendChild(div);
+          }
+
+         }
+      }
+    </script>
   
 </body>
 
