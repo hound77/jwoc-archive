@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
 
 .site-footer
 {
@@ -93,48 +103,6 @@
   margin-right: 10px;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 350px;
-  perspective: 1000px;
-  margin: 5.46875vw auto;
-}
-
-.flip-card-inner {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-radius: 20px;
-}
-
-.flip-card-front {
-  color: black;
-  background-image: url("/images/Team/img_avatar.png");
-  background-size: 300px 350px;
- 
-}
-
-.back-card-text {
-  padding: 40px 20px;
-}
 .icons:hover {
   color: black;
 }
@@ -143,27 +111,13 @@
   z-index: 100;
 }
 
-.flip-card-back {
-  background-color: #1db954;
-  color: white;
-  transform: rotateY(180deg);
-}
+
+
 
 #team
 {
     margin-top:200px;
     margin-bottom: 100px;
-}
-.image{
-  position:sticky;
-object-fit: cover;
-  height: 350px;
-  width: 300px;
- border-radius: 20px;
-  border-color: #ffffff;
-  border-width: 4px;
-  border-style: solid;
-        
 }
 
 .team__heading_2019 {
@@ -173,6 +127,7 @@ object-fit: cover;
   outline: none;
   color: #EEEEEE;  
 }
+
 details[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;
 }
@@ -185,8 +140,87 @@ details[open] summary ~ * {
     opacity: 1;
   }
 }
+
 .team__heading_2019:hover {
     color: #1db954;
-    transition: 0.2s;
+    transition: 0.4s;
     font-size: 42px;
+}
+
+.container {
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.container .card span {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  opacity: 0.95;
+  background-color: #1db954;
+  z-index: 1;
+  transition: width 0.5s,height 0.5s;
+}
+
+.container .card:hover span {
+  width: 1000px;
+  height: 1000px;
+}
+
+.container .card .imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .card .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.container .card .content div {
+  padding: 40px;
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.2s;
+}
+
+.container .card:hover .content div {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
 }
