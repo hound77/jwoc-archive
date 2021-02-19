@@ -19,7 +19,7 @@ section {
 #featured {
   max-width: 1000px;
   max-height: 600px;
-  object-fit: cover;
+  object-fit: contain;
   cursor: pointer;
   border: 2px solid black;
   filter: drop-shadow(3px 3px 3px black);

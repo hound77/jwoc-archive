@@ -55,9 +55,9 @@
     </header>
  
   <div id="contentwrap">
-    <div id="buttons">
+    <div id="buttons"> 
       <div id="feat">
-        <img id="featured" src="images/a.jpg" height="600px" width="1000px">
+        <img id="featured" src="galleryImages/img 1.png" height="600px" width="1000px">
         <a href="javascript:void(0)" id="prevbutton" onclick="prev()"><span id="previcon">&#8249;</span></a>
         <a href="javascript:void(0)" id="nextbutton" onclick="next()"><span id="nexticon">&#8250;</span></a>
       </div>
@@ -65,15 +65,19 @@
     <div id="slidewrap">
       <img id="leftarrow" class="arrow" src="images/leftarrow.png">
       <div id="slider">
-        <img class="thumbnail active" src="images/a.jpg">
-        <img class="thumbnail" src="images/b.jpg">
-        <img class="thumbnail" src="images/c.jpg">
-        <img class="thumbnail" src="images/d.jpg">
-        <img class="thumbnail" src="images/e.jpg">
-        <img class="thumbnail" src="images/f.jpg">
-        <img class="thumbnail" src="images/g.jpg">
-        <img class="thumbnail" src="images/h.jpg">
-        <img class="thumbnail" src="images/i.jpg">
+        <img class="thumbnail active" src="galleryImages/img 1.png">
+        <img class="thumbnail" src="galleryImages/img 2.png">
+        <img class="thumbnail" src="galleryImages/img 3.png">
+        <img class="thumbnail" src="galleryImages/img 4.png">
+        <img class="thumbnail" src="galleryImages/img 5.png">
+        <img class="thumbnail" src="galleryImages/img 6.png">
+        <img class="thumbnail" src="galleryImages/img 7.jpg">
+        <img class="thumbnail" src="galleryImages/img 8-1.png" >
+        <img class="thumbnail" src="galleryImages/img 9 -1.png" >
+        <img class="thumbnail" src="galleryImages/img 10 -1.png">
+        <img class="thumbnail" src="galleryImages/img 11 -1.png">
+        <img class="thumbnail" src="galleryImages/img 12.jpg">
+        <img class="thumbnail" src="galleryImages/img 13.png">
       </div>
       <img id="rightarrow" class="arrow" src="images/rightarrow.png ">
     </div>
@@ -81,10 +85,8 @@
 
   <script type="text/javascript">
     var slider_img = document.querySelector('#featured');
-    var images = ['a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg', 'f.jpg', 'g.jpg', 'h.jpg', 'i.jpg'];
-
+    var images = ['img 1.png','img 2.png','img 3.png','img 4.png','img 5.png','img 6.png','img 7.jpg','img 8.png','img 9.png','img 10.png','img 11.png','img 12.jpg','img 13.png',]
     var i = 0;
-
     function prev() {
       if (i <= 0) i = images.length;
       i--;
@@ -100,7 +102,7 @@
 
 
     function setImg() {
-      return slider_img.setAttribute('src', 'images/' + images[i]);
+      return slider_img.setAttribute('src', 'galleryImages/' + images[i]);
     }
 
 
@@ -110,7 +112,7 @@
 
     for (var i = 0; i < thumbnails.length; i++) {
 
-      thumbnails[i].addEventListener('mouseover', function () {
+      thumbnails[i].addEventListener('click', function () {
         console.log(activeImages)
 
         if (activeImages.length > 0) {
