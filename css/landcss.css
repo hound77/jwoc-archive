@@ -3,14 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-  overflow: hidden;
-  border: 10px solid red;
-  
-} */
+
 .logo-img{
   width: 100px;
   height: 100px;
@@ -20,7 +13,7 @@ body {
   font-size: 1em; 
 }
 .h1-landpage {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
   font-size: 4rem;
   line-height: 1.2;
   color: #fff;
@@ -32,7 +25,7 @@ body {
 }
 
 .op-src {
-  font-family: 'Special Elite',cursive;
+  /*font-family: 'Special Elite',cursive;*/
   color: #ffffff;
   line-height: 1.6;
   margin: 0;
@@ -80,8 +73,7 @@ body {
   padding: 8px;
   font-size: 1.2rem;
   color: #ffffff;
-  /*font-family: poppins;
-  */font-weight: 100;
+  font-weight: 100;
   border: 2px solid #091133;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -277,6 +269,13 @@ nav {
 
 .page-header-content {
   position: absolute;
+}
+
+@media only screen and (max-width: 400px)
+{
+  nav {
+    margin-bottom: 19%;
+  }
 }
 
 html {
