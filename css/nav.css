@@ -23,3 +23,15 @@ a.ex1:active {
     font-size: 120%;
     transition: 0.2s;
 }
+
+.active a {
+	color: #1db954;
+    font-size: 125%;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.2s;
+    border-radius: 2.5rem;
+    border-color: #1db954;
+    background-color: #ffffff3b;
+}
+
